@@ -1,31 +1,39 @@
-import { dir } from 'i18next'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import '../globals.css'
 import { languages } from '@/i18n/settings'
-import '@/app/globals.css'
-import Header from '@/components/ui/Header'
-import Footer from '@/components/ui/Footer'
+import type { Locale } from '@/i18n/settings'
 
-export async function generateStaticParams() {
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Tanzania Charity Foundation',
+  description: 'Bringing hope and building futures for children in East Africa',
+}
+
+// دالة لإنشاء static params
+export function generateStaticParams() {
   return languages.map((lng) => ({ lng }))
+}
+
+// تعريف نوع الـ params
+interface LayoutProps {
+  children: React.ReactNode
+  params: {
+    lng: Locale
+  }
 }
 
 export default async function RootLayout({
   children,
   params,
-}: {
-  children: React.ReactNode
-  params: Promise<{ lng: "ar" | "en" | "sw"  }>
-}) {
+}: LayoutProps) {
   const { lng } = await params
   
   return (
-    <html lang={lng} dir={dir(lng)}>
-      <head>
-        <title>مجمع مدارس د. محمد حسن الزيات</title>
-      </head>
-      <body className={`${lng === 'ar' ? 'font-arabic' : 'font-english'}`}>
-        <Header lng={lng} />
+    <html lang={lng} dir={lng === 'ar' ? 'rtl' : 'ltr'}>
+      <body className={inter.className}>
         {children}
-        <Footer lng={lng} />
       </body>
     </html>
   )

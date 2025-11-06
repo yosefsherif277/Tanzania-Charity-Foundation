@@ -1,4 +1,4 @@
-export const fallbackLng = 'en'
+export const fallbackLng = 'ar'
 export const languages = ['ar', 'en', 'sw'] as const
 export const defaultNS = 'common'
 

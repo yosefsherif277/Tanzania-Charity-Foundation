@@ -1,15 +1,16 @@
-import { useTranslation } from '@/i18n/client'
-import { Locale } from '@/i18n/settings'
-import HeroSection from '@/components/sections/HeroSection'
-import MissionSection from '@/components/sections/MissionSection'
-import ProjectsSection from '@/components/sections/ProjectsSection'
+import { Locale } from "@/i18n/settings";
+import HeroSection from "@/components/sections/HeroSection";
+import MissionSection from "@/components/sections/MissionSection";
+import ProjectsSection from "@/components/sections/ProjectsSection";
 
-export default async function HomePage({ 
-  params 
-}: { 
-  params: Promise<{ lng: Locale }> 
-}) {
-  const { lng } = await params
+// تعريف نوع الـ params
+interface PageProps {
+  params: {
+    lng: Locale;
+  };
+}
+export default async function HomePage({ params }: PageProps) {
+  const { lng } = await params;
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -19,5 +20,5 @@ export default async function HomePage({
         <ProjectsSection lng={lng} />
       </main>
     </div>
-  )
+  );
 }
