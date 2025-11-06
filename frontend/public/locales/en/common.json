@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "ourPurpose": "Our Purpose",
+    "projects": "Projects",
+    "waterWells": "Water Wells",
+    "sponsor": "Sponsor Orphan",
+    "donate": "Donate",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Tanzania Charity Foundation"
+  },
+  "footer": {
+    "description": "Bringing hope and building futures for children in East Africa through compassion and care.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 Tanzania Charity Foundation. All Rights Reserved."
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "donateNow": "Donate Now",
+    "sponsorNow": "Sponsor Now",
+    "contactUs": "Contact Us",
+    "sendMessage": "Send Message"
+  },
+  "home": {
+    "heroTitle": "Together, We Build Hope",
+    "heroDescription": "Support clean water, education, healthcare, and orphan sponsorship across Tanzania. Your sadaqah and zakat bring lasting change.",
+    "campaignProgress": "Campaign Progress",
+    "wellCost": "Cost to build a shallow well",
+    "sponsorWell": "Sponsor a Well"
+  },
+  "about": {
+    "title": "About Tanzania Charity Foundation",
+    "description": "Learn about our mission, vision, and the impact we're making in Tanzania and East Africa."
+  },
+  "ourPurpose": {
+    "title": "Our Purpose",
+    "description": "Discover the story, mission, and values that drive our humanitarian work in Tanzania and East Africa.",
+    "mission": "Our Mission",
+    "missionText": "To provide sustainable, compassionate aid that empowers communities and fosters long-term development through education, healthcare, and clean water initiatives.",
+    "vision": "Our Vision",
+    "visionText": "An East Africa where every individual has access to life's essentials and the opportunity to thrive with dignity, hope, and faith.",
+    "values": "Our Values",
+    "valuesText": "Guided by the principles of integrity, compassion, and community, we serve with respect, dedication, and unwavering commitment to humanity."
+  },
+  "projects": {
+    "title": "Our Projects",
+    "description": "Explore our ongoing and completed projects that are making a difference in communities across Tanzania.",
+    "featuredProjects": "Our Featured Projects",
+    "featuredDescription": "Discover how we are making a difference in communities across Tanzania",
+    "education": "Education Programs",
+    "educationDesc": "Providing quality education and school supplies to underprivileged children",
+    "viewAllProjects": "View All Projects"
+  },
+  "waterWells": {
+    "title": "Water Well Projects",
+    "description": "Bringing clean, safe drinking water to communities in Tanzania through sustainable water well projects.",
+    "shallowWell": "Shallow Well",
+    "deepWell": "Deep Well",
+    "servesPeople": "Serves {{count}} people"
+  },
+  "sponsor": {
+    "title": "Sponsor an Orphan",
+    "description": "Your sponsorship provides hope, education, and a brighter future for a child in need.",
+    "monthlyCost": "$35 / Month",
+    "benefitsTitle": "Sponsorship Benefits",
+    "benefitsDescription": "Your sponsorship provides comprehensive support for a child in need",
+    "benefit1": "Education Support",
+    "benefit1Desc": "School fees, books, and educational materials",
+    "benefit2": "Healthcare",
+    "benefit2Desc": "Medical care and health monitoring",
+    "benefit3": "Personal Care",
+    "benefit3Desc": "Food, clothing, and personal development",
+    "childrenTitle": "Children Waiting for Sponsorship",
+    "childrenDescription": "Meet some of the wonderful children waiting for a sponsor like you"
+  },
+  "donate": {
+    "title": "Donate / Zakat",
+    "description": "Your generosity transforms lives in Tanzania and East Africa.",
+    "donationType": "Donation Type",
+    "oneTime": "One-Time",
+    "monthly": "Monthly",
+    "chooseAmount": "Choose an Amount",
+    "custom": "Custom",
+    "directDonation": "Direct your donation (optional)",
+    "whereNeeded": "Where most needed",
+    "zakat": "Zakat",
+    "sadaqah": "Sadaqah",
+    "waterWells": "Water Wells",
+    "orphans": "Orphans",
+    "ramadan": "Ramadan",
+    "paymentMethod": "Payment Method",
+    "donateSecurely": "Donate Securely",
+    "sslSecure": "SSL Secure Payment",
+    "enterAmount": "Enter Amount",
+    "programSpending": "Program Spending",
+    "programSpendingDesc": "Directly supports our projects and beneficiaries",
+    "administration": "Administration",
+    "administrationDesc": "Operational and management costs",
+    "fundraising": "Fundraising",
+    "fundraisingDesc": "Campaigns and donor outreach",
+    "transparency": "Financial Transparency",
+    "transparencyDesc": "We are committed to complete transparency in how we use your donations"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "We'd love to hear from you. Reach out for inquiries, support, or partnership opportunities. Our team is here to assist you.",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Your Message",
+    "ourOffice": "Our Office",
+    "connectWithUs": "Connect with Us",
+    "sendMessage": "Send us a Message",
+    "fullNamePlaceholder": "Your full name",
+    "emailPlaceholder": "your.email@example.com",
+    "subjectPlaceholder": "What is your message about?",
+    "messagePlaceholder": "Write your message here...",
+    "contactInfo": "Contact Information",
+    "address": "Our Address",
+    "phone": "Phone",
+    "mapPlaceholder": "Interactive Map"
+  },
+  "mission": {
+    "ourPrinciples": "Our Core Principles",
+    "principlesDescription": "Guided by our mission, vision, and values to create lasting impact",
+    "wellsBuilt": "Water Wells Built",
+    "childrenSponsored": "Children Sponsored",
+    "yearsServing": "Years Serving",
+    "livesImpacted": "Lives Impacted"
+  },
+  "timeline": {
+    "ourJourney": "Our Journey",
+    "foundationLaid": "Foundation Laid",
+    "foundationDesc": "The Tanzania Charity Foundation was established with a singular vision: to bring hope and tangible aid to the most vulnerable communities.",
+    "firstWaterWell": "First Water Well Project",
+    "firstWaterWellDesc": "Completed our first major project, providing a clean water well to a village of over 2,000 people, transforming local health and agriculture.",
+    "educationProgram": "Educational Program Launch",
+    "educationProgramDesc": "Expanded our focus to include education, sponsoring 50 students and providing essential school supplies to remote areas.",
+    "eastAfricaExpansion": "Expansion into East Africa",
+    "eastAfricaExpansionDesc": "Began new initiatives in neighboring countries, extending our reach and impact across the wider East African region."
+  },
+  "whyTanzania": {
+    "title": "Why Tanzania?",
+    "description1": "Tanzania, a nation of breathtaking beauty and vibrant culture, also faces significant challenges. Many communities lack access to basic necessities like clean water, healthcare, and quality education. Our focus on this region is a commitment to its people.",
+    "description2": "We work hand-in-hand with local leaders to create sustainable solutions that honor their culture and empower them for a brighter future. Our efforts are a testament to our belief that by concentrating our resources, we can make a deep and lasting impact."
+  },
+  "cta": {
+    "joinMission": "Join Our Mission Today",
+    "joinDescription": "Your contribution can bring clean water to a village, send a child to school, or provide life-saving medical care. Help us make a difference in the lives of those who need it most.",
+    "readyToMakeDifference": "Ready to Make a Difference?",
+    "differenceDescription": "A single donation can transform lives for generations. Your gift of clean water is a gift of health, education, and opportunity. Join us in this blessed work and earn a continuous reward."
+  }
+}
