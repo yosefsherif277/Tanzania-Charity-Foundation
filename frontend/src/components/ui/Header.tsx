@@ -179,7 +179,7 @@ export default function Header({ lng }: HeaderProps) {
               {navigation.map((item) => (
                 <Link
                   key={item.href}
-                  href={item.href}
+                  href={`${item.href} as const`}
                   className={`nav-link ${isActive(item.href) ? 'active' : ''}`}
                 >
                   {item.label}
@@ -233,7 +233,7 @@ export default function Header({ lng }: HeaderProps) {
               {navigation.map((item) => (
                 <Link
                   key={item.href}
-                  href={item.href}
+                  href={`${item.href} as const`}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`block py-3 px-4 text-lg font-medium rounded-lg transition-colors ${
                     isActive(item.href) 
