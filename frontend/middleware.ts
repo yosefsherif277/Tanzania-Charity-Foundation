@@ -12,12 +12,12 @@ export function middleware(request: NextRequest) {
   }
 
   // التحقق إذا كانت الصفحة تحتوي على لغة
-  if (pathname.startsWith('/ar') || pathname.startsWith('/en')) {
+  if (pathname.startsWith('/ar') || pathname.startsWith('/en') || pathname.startsWith('/sw')) {
     return NextResponse.next()
   }
 
-  // التوجيه إلى اللغة العربية افتراضيًا
-  request.nextUrl.pathname = `/ar${pathname}`
+  // التوجيه إلى اللغة الانجليزية افتراضيًا
+  request.nextUrl.pathname = `/en${pathname}`
   return Response.redirect(request.nextUrl)
 }
 
