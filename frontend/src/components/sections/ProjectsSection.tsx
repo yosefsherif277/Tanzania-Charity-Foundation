@@ -15,7 +15,7 @@ export default function ProjectsSection({ lng }: ProjectsSectionProps) {
       title: t('waterWells.title'),
       description: t('waterWells.description'),
       image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCjGczLn5SAoeWQOr8Dx25ByMw07yjdHAN9geR6MDUU7Z87mDEIWWdygmOeEO-mis1kGondS6a3nRy5uo9tLGUYjK73oqSrIvloskx5ptK1L4Im3zGaANP65i2cH14E66IxPjKlGjGam4Ht1JcV75k9RVcV37habOJ_avDbA1IlXuxalJQDP_7lFZSX3X1K0eGNZNfgrqpHlp8upiN8uIagedwWoILOakfhXUjShCxKo85WIh-lI9MiB3TzrvRVdDpWvcmUR6gzry0',
-      href: `/${lng}/projects/water-wells`,
+      href: `/${lng}/projects/water-wells` as const, // أضف as const هنا
       stats: '50+ Wells',
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ export default function ProjectsSection({ lng }: ProjectsSectionProps) {
       title: t('sponsor.title'),
       description: t('sponsor.description'),
       image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBSV4-1Yii0HzaAqhfftbk76X8Z_rTumiUY1AvVOH6qJZIxau6Z7z1_76fkPnNgnU_kLhgPYBtkpzQPdMT_aeTXP0KUL0qUd5pYZlvx112-RvGaIWjX4zdHg3Pa8TXNnT7AT3E8AoGG0LnyGi9wq2x1PuSAgPzPzLu4Btq9asW5XIRrWDhYqsJNqwJPZiC8delHIX4MnLU4cQfPIDPKWZEMI-DFRiRCPEn1jg1pT6iI-t6aAnE1r6nLaePMpWJgz6aaBy1LnOEYhls',
-      href: `/${lng}/sponsor`,
+      href: `/${lng}/sponsor` as const, // أضف as const هنا
       stats: '100+ Children',
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ export default function ProjectsSection({ lng }: ProjectsSectionProps) {
       title: t('projects.education', { defaultValue: 'Education Programs' }),
       description: t('projects.educationDesc', { defaultValue: 'Providing quality education and school supplies to underprivileged children' }),
       image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD5f9vZ0Ep9ufGAG2LE6njrJ1sbWONYnAbzF1q99UK570Pn7BKgiPKEbQegQs-eqLc-27T0aqnIzKDtO8IKr8ohRn8PxYZ3m9795El9hQ3qhP69dSO_QOYtXxj7aZaDCtxj1Fd98J11FTOuUbSOCRZYyVGgMIcZf3bOaTVojixoglRYnmqssr17UyPOQgs5vrHmVtGasckkIGhAr7tsn6QiK1nvCt4DVC7QHwGKVq-ePR2HeaH6-A57CuJ8bOl409xfCmQ9dPaV69M',
-      href: `/${lng}/projects`,
+      href: `/${lng}/projects` as const, // أضف as const هنا
       stats: '500+ Students',
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -47,7 +47,7 @@ export default function ProjectsSection({ lng }: ProjectsSectionProps) {
         </svg>
       )
     }
-  ]
+  ] as const // أو أضف as const هنا للمصفوفة ككل
 
   return (
     <section className="py-16 bg-white">
@@ -111,7 +111,7 @@ export default function ProjectsSection({ lng }: ProjectsSectionProps) {
         {/* View All Projects CTA */}
         <div className="text-center">
           <Link 
-            href={`/${lng}/projects`}
+            href={`/${lng}/projects` as const} // أضف as const هنا أيضاً
             className="btn-secondary inline-flex items-center gap-2"
           >
             <span>{t('projects.viewAllProjects', { defaultValue: 'View All Projects' })}</span>
