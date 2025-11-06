@@ -46,7 +46,7 @@ export default function Footer({ lng }: FooterProps) {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={`${link.href} ` as const} className="footer-link">
+                  <Link href={`${link.href}` as const} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
@@ -62,7 +62,7 @@ export default function Footer({ lng }: FooterProps) {
             <ul className="space-y-2">
               {projectLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={`${link.href} ` as const} className="footer-link">
+                  <Link href={`${link.href}` as const} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
