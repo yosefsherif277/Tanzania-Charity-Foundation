@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 // تعريف الأنواع
 interface LayoutProps {
   children: React.ReactNode
-  params: Promise<{ lng: Locale }>
+  params: Promise<{ lng: string }> // غير إلى string
 }
 
 // Static params
@@ -26,8 +26,13 @@ export function generateStaticParams() {
 export default async function RootLayout({ children, params }: LayoutProps) {
   const { lng } = await params
   
+  // تحقق مباشر مع قيمة افتراضية
+  const safeLng: Locale = languages.includes(lng as Locale) 
+    ? lng as Locale 
+    : 'en'
+  
   return (
-    <html lang={lng} dir={lng === 'ar' ? 'rtl' : 'ltr'}>
+    <html lang={safeLng} dir={safeLng === 'ar' ? 'rtl' : 'ltr'}>
       <body className={inter.className}>
         {children}
       </body>
