@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import '../globals.css'
 import { languages } from '@/i18n/settings'
 import type { Locale } from '@/i18n/settings'
+import Footer from '@/components/ui/Footer'
+import Header from '@/components/ui/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,7 +36,9 @@ export default async function RootLayout({ children, params }: LayoutProps) {
   return (
     <html lang={safeLng} dir={safeLng === 'ar' ? 'rtl' : 'ltr'}>
       <body className={inter.className}>
+        <Header lng={safeLng} />
         {children}
+        <Footer lng={safeLng} />
       </body>
     </html>
   )
