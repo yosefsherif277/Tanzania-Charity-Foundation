@@ -102,11 +102,11 @@ export default function Footer({ lng }: FooterProps) {
             © {new Date().getFullYear()} {t('footer.copyright')}
           </p>
           <div className="flex justify-center gap-4 mt-2 text-xs">
-            <Link href={`/${lng}/privacy`} className="footer-link">
+            <Link href={`/${lng}/privacy` as Route} className="footer-link">
               {t('footer.privacy')}
             </Link>
             <span className="text-charcoal/40">·</span>
-            <Link href={`/${lng}/terms`} className="footer-link">
+            <Link href={`/${lng}/terms` as Route} className="footer-link">
               {t('footer.terms')}
             </Link>
           </div>
