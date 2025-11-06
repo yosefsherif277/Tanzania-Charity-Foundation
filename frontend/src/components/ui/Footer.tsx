@@ -20,9 +20,9 @@ export default function Footer({ lng }: FooterProps) {
 ]
 
   const projectLinks = [
-    { href: `/${lng}/projects/water-wells`, label: t('nav.waterWells') },
-    { href: `/${lng}/projects`, label: t('nav.projects') },
-    { href: `/${lng}/our-purpose`, label: t('nav.ourPurpose') },
+    { href: `/${lng}/projects/water-wells` as Route, label: t('nav.waterWells') },
+    { href: `/${lng}/projects` as Route, label: t('nav.projects') },
+    { href: `/${lng}/our-purpose` as Route, label: t('nav.ourPurpose') },
   ]
 
   return (
