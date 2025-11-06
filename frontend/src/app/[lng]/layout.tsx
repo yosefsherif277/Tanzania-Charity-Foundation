@@ -11,23 +11,19 @@ export const metadata: Metadata = {
   description: 'Bringing hope and building futures for children in East Africa',
 }
 
-// دالة لإنشاء static params
+// تعريف الأنواع
+interface LayoutProps {
+  children: React.ReactNode
+  params: Promise<{ lng: Locale }>
+}
+
+// Static params
 export function generateStaticParams() {
   return languages.map((lng) => ({ lng }))
 }
 
-// تعريف نوع الـ params
-interface LayoutProps {
-  children: React.ReactNode
-  params: {
-    lng: Locale
-  }
-}
-
-export default async function RootLayout({
-  children,
-  params,
-}: LayoutProps) {
+// Layout الرئيسي
+export default async function RootLayout({ children, params }: LayoutProps) {
   const { lng } = await params
   
   return (
