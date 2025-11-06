@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Tanzania Charity Foundation',
   description: 'Bringing hope and building futures for children in East Africa',
+  icons: {
+    icon: '/images/charityIconWithoutBGandWords.ico',
+  }
 }
 
 // تعريف الأنواع
