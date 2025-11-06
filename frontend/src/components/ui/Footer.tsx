@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useTranslation } from '@/i18n/client'
 import type { Locale } from '@/i18n/settings'
+import { Route } from 'next';
 
 interface FooterProps {
   lng: Locale
@@ -12,11 +13,11 @@ export default function Footer({ lng }: FooterProps) {
   const { t } = useTranslation(lng, 'common')
 
   const quickLinks = [
-    { href: `/${lng}/about`, label: t('nav.about') },
-    { href: `/${lng}/sponsor`, label: t('nav.sponsor') },
-    { href: `/${lng}/donate`, label: t('nav.donate') },
-    { href: `/${lng}/contact`, label: t('nav.contact') },
-  ]
+  { href: `/${lng}/about` as Route, label: t('nav.about') },
+  { href: `/${lng}/sponsor` as Route, label: t('nav.sponsor') },
+  { href: `/${lng}/donate` as Route, label: t('nav.donate') },
+  { href: `/${lng}/contact` as Route, label: t('nav.contact') },
+]
 
   const projectLinks = [
     { href: `/${lng}/projects/water-wells`, label: t('nav.waterWells') },
