@@ -180,7 +180,7 @@ export default function Header({ lng }: HeaderProps) {
               {navigation.map((item) => (
                 <Link
                   key={item.href}
-                  href={item.href}
+                  href={item.href as Route}
                   className={`nav-link ${isActive(item.href) ? 'active' : ''}`}
                 >
                   {item.label}
@@ -234,7 +234,7 @@ export default function Header({ lng }: HeaderProps) {
               {navigation.map((item) => (
                 <Link
                   key={item.href}
-                  href={item.href}
+                  href={item.href as Route}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`block py-3 px-4 text-lg font-medium rounded-lg transition-colors ${
                     isActive(item.href) 
@@ -256,7 +256,7 @@ export default function Header({ lng }: HeaderProps) {
                 {languages.map((language) => (
                   <Link
                     key={language.code}
-                    href={pathname.replace(`/${lng}`, `/${language.code}`)}
+                    href={pathname.replace(`/${lng}`, `/${language.code}`) as Route}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={`block py-2 px-4 rounded-lg transition-colors text-sm ${
                       lng === language.code
