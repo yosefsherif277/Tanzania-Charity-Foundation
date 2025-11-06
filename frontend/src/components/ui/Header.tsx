@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useTranslation } from '@/i18n/client'
 import type { Locale } from '@/i18n/settings'
+import { Route } from 'next'
 
 interface HeaderProps {
   lng: Locale
@@ -146,7 +147,7 @@ export default function Header({ lng }: HeaderProps) {
                       {languages.map((language) => (
                         <Link
                           key={language.code}
-                          href={pathname.replace(`/${lng}`, `/${language.code}`)}
+                          href={pathname.replace(`/${lng}`, `/${language.code}`) as Route}
                           className="block px-4 py-2 text-sm text-charcoal hover:bg-sand/50 transition-colors"
                           onClick={() => setIsLanguageMenuOpen(false)}
                         >
@@ -273,7 +274,7 @@ export default function Header({ lng }: HeaderProps) {
           {/* زر التبرع في القائمة الجانبية - ثابت في الأسفل */}
           <div className="p-6 border-t border-sand/30 bg-white flex-shrink-0">
             <Link
-              href={`/${lng}/donate`}
+              href={`/${lng}/donate` as Route}
               onClick={() => setIsMobileMenuOpen(false)}
               className="flex items-center justify-center w-full px-4 py-3 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors"
             >
