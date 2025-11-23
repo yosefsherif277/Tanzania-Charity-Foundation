@@ -6,7 +6,6 @@
     "projects": "المشاريع",
     "waterWells": "آبار المياه",
     "sponsor": "كفالة اليتيم",
-    "donate": "تبرع",
     "contact": "اتصل بنا"
   },
   "header": {
@@ -18,11 +17,10 @@
     "followUs": "تابعونا",
     "privacy": "سياسة الخصوصية",
     "terms": "شروط الخدمة",
-    "copyright": "© 2024 مؤسسة تنزانيا الخيرية. جميع الحقوق محفوظة."
+    "copyright": " مؤسسة تنزانيا الخيرية. جميع الحقوق محفوظة."
   },
   "buttons": {
     "learnMore": "اعرف المزيد",
-    "donateNow": "تبرع الآن",
     "sponsorNow": "كفل الآن",
     "contactUs": "اتصل بنا",
     "sendMessage": "إرسال الرسالة"
@@ -78,34 +76,6 @@
     "benefit3Desc": "الطعام، الملابس، والتطور الشخصي",
     "childrenTitle": "الأطفال المنتظرين الكفالة",
     "childrenDescription": "تعرف على بعض الأطفال الرائعين الذين ينتظرون كفالة منك"
-  },
-  "donate": {
-    "title": "تبرع / زكاة",
-    "description": "كرمك يحول حياة الناس في تنزانيا وشرق أفريقيا.",
-    "donationType": "نوع التبرع",
-    "oneTime": "مرة واحدة",
-    "monthly": "شهري",
-    "chooseAmount": "اختر المبلغ",
-    "custom": "مخصص",
-    "directDonation": "توجيه تبرعك (اختياري)",
-    "whereNeeded": "حيث تكون الحاجة أكبر",
-    "zakat": "زكاة",
-    "sadaqah": "صدقة",
-    "waterWells": "آبار المياه",
-    "orphans": "الأيتام",
-    "ramadan": "رمضان",
-    "paymentMethod": "طريقة الدفع",
-    "donateSecurely": "تبرع بأمان",
-    "sslSecure": "دفع آمن SSL",
-    "enterAmount": "أدخل المبلغ",
-    "programSpending": "الإنفاق البرامجي",
-    "programSpendingDesc": "يدعم مشاريعنا والمستفيدين مباشرة",
-    "administration": "الإدارة",
-    "administrationDesc": "التكاليف التشغيلية والإدارية",
-    "fundraising": "جمع التبرعات",
-    "fundraisingDesc": "الحملات والتواصل مع المانحين",
-    "transparency": "الشفافية المالية",
-    "transparencyDesc": "نحن ملتزمون بالشفافية الكاملة في كيفية استخدام تبرعاتكم"
   },
   "contact": {
     "title": "اتصل بنا",

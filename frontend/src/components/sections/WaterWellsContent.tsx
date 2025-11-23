@@ -82,9 +82,6 @@ export default function WaterWellsContent({ lng }: { lng: "ar" | "en" | "sw" }) 
             <p className="text-lg mb-8 max-w-2xl mx-auto">
               {t("home.wellCost")}: $1,500 - $5,000
             </p>
-            <Link href={`/${lng}/donate`} className="btn-accent inline-block">
-              {t("buttons.donateNow")}
-            </Link>
           </div>
         </section>
       </main>

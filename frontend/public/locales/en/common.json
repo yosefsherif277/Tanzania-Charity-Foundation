@@ -6,7 +6,6 @@
     "projects": "Projects",
     "waterWells": "Water Wells",
     "sponsor": "Sponsor Orphan",
-    "donate": "Donate",
     "contact": "Contact"
   },
   "header": {
@@ -18,11 +17,10 @@
     "followUs": "Follow Us",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyright": "© 2024 Tanzania Charity Foundation. All Rights Reserved."
+    "copyright": " Tanzania Charity Foundation. All Rights Reserved."
   },
   "buttons": {
     "learnMore": "Learn More",
-    "donateNow": "Donate Now",
     "sponsorNow": "Sponsor Now",
     "contactUs": "Contact Us",
     "sendMessage": "Send Message"
@@ -78,34 +76,6 @@
     "benefit3Desc": "Food, clothing, and personal development",
     "childrenTitle": "Children Waiting for Sponsorship",
     "childrenDescription": "Meet some of the wonderful children waiting for a sponsor like you"
-  },
-  "donate": {
-    "title": "Donate / Zakat",
-    "description": "Your generosity transforms lives in Tanzania and East Africa.",
-    "donationType": "Donation Type",
-    "oneTime": "One-Time",
-    "monthly": "Monthly",
-    "chooseAmount": "Choose an Amount",
-    "custom": "Custom",
-    "directDonation": "Direct your donation (optional)",
-    "whereNeeded": "Where most needed",
-    "zakat": "Zakat",
-    "sadaqah": "Sadaqah",
-    "waterWells": "Water Wells",
-    "orphans": "Orphans",
-    "ramadan": "Ramadan",
-    "paymentMethod": "Payment Method",
-    "donateSecurely": "Donate Securely",
-    "sslSecure": "SSL Secure Payment",
-    "enterAmount": "Enter Amount",
-    "programSpending": "Program Spending",
-    "programSpendingDesc": "Directly supports our projects and beneficiaries",
-    "administration": "Administration",
-    "administrationDesc": "Operational and management costs",
-    "fundraising": "Fundraising",
-    "fundraisingDesc": "Campaigns and donor outreach",
-    "transparency": "Financial Transparency",
-    "transparencyDesc": "We are committed to complete transparency in how we use your donations"
   },
   "contact": {
     "title": "Get In Touch",

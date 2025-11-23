@@ -21,20 +21,6 @@ export default function HeroSection({ lng }: HeroSectionProps) {
           <p className="text-lg md:text-xl leading-relaxed mb-8">
             {t('home.heroDescription')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href={`/${lng}/donate`}
-              className="btn-accent px-8 py-4 text-lg"
-            >
-              {t('buttons.donateNow')}
-            </Link>
-            <Link 
-              href={`/${lng}/about`}
-              className="btn-secondary px-8 py-4 text-lg"
-            >
-              {t('buttons.learnMore')}
-            </Link>
-          </div>
         </div>
       </div>
     </section>

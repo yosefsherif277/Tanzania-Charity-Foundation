@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    typedRoutes: true,
-  },
-  typescript: {
-    ignoreBuildErrors: false,
-  },
+  output: 'export',  // هذا السحر!
+  trailingSlash: true,
+  images: {
+    unoptimized: true  // مهم للصور
+  }
 }
 
 module.exports = nextConfig

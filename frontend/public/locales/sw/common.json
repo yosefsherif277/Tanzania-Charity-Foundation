@@ -6,7 +6,6 @@
     "projects": "Miradi",
     "waterWells": "Visima vya Maji",
     "sponsor": "Kumlea Yatima",
-    "donate": "Toa",
     "contact": "Wasiliana"
   },
   "header": {
@@ -18,11 +17,10 @@
     "followUs": "Tufuate",
     "privacy": "Sera ya Faragha",
     "terms": "Masharti ya Huduma",
-    "copyright": "© 2024 Msingi wa Upendo Tanzania. Haki zote zimehifadhiwa."
+    "copyright": " Msingi wa Upendo Tanzania. Haki zote zimehifadhiwa."
   },
   "buttons": {
     "learnMore": "Jifunze Zaidi",
-    "donateNow": "Toa Sasa",
     "sponsorNow": "Kumlea Sasa",
     "contactUs": "Wasiliana Nasi",
     "sendMessage": "Tuma Ujumbe"
@@ -78,34 +76,6 @@
     "benefit3Desc": "Chakula, mavazi, na maendeleo binafsi",
     "childrenTitle": "Watoto Wanaongojea Ufadhili",
     "childrenDescription": "Kutana na baadhi ya watoto wazuri wanaongojea mfadhili kama wewe"
-  },
-  "donate": {
-    "title": "Toa / Zaka",
-    "description": "Ukarimu wako unabadilisha maisha Tanzania na Afrika Mashariki.",
-    "donationType": "Aina ya Mchango",
-    "oneTime": "Mara Moja",
-    "monthly": "Kila Mwezi",
-    "chooseAmount": "Chagua Kiasi",
-    "custom": "Maalum",
-    "directDonation": "Elekeza mchango wako (hiari)",
-    "whereNeeded": "Mahali panapohitajika zaidi",
-    "zakat": "Zaka",
-    "sadaqah": "Sadaqah",
-    "waterWells": "Visima vya Maji",
-    "orphans": "Yatima",
-    "ramadan": "Ramadan",
-    "paymentMethod": "Njia ya Malipo",
-    "donateSecurely": "Toa kwa Usalama",
-    "sslSecure": "Malipo Salama ya SSL",
-    "enterAmount": "Weka Kiasi",
-    "programSpending": "Matumizi ya Mpango",
-    "programSpendingDesc": "Inasaidia miradi yetu na wanufaika moja kwa moja",
-    "administration": "Usimamizi",
-    "administrationDesc": "Gharama za uendeshaji na usimamizi",
-    "fundraising": "Ukusanyaji wa Fedha",
-    "fundraisingDesc": "Kampeni na mawasiliano na wafadhili",
-    "transparency": "Uwazi wa Kifedha",
-    "transparencyDesc": "Tunaahidi uwazi kamili katika jinsi tunavyotumia michango yako"
   },
   "contact": {
     "title": "Wasiliana Nasi",

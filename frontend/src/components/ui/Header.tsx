@@ -65,9 +65,7 @@ export default function Header({ lng }: HeaderProps) {
     { href: `/${lng}/about`, label: t("nav.about") },
     { href: `/${lng}/our-purpose`, label: t("nav.ourPurpose") },
     { href: `/${lng}/projects`, label: t("nav.projects") },
-    { href: `/${lng}/projects/water-wells`, label: t("nav.waterWells") },
     { href: `/${lng}/sponsor`, label: t("nav.sponsor") },
-    { href: `/${lng}/donate`, label: t("nav.donate") },
     { href: `/${lng}/contact`, label: t("nav.contact") },
   ];
 
@@ -128,14 +126,6 @@ export default function Header({ lng }: HeaderProps) {
 
               {/* الأزرار - تنمو حسب المحتوى */}
               <div className="flex items-center gap-3 flex-1 justify-end">
-                {/* زر التبرع - يظهر على الشاشات المتوسطة والكبيرة */}
-                <Link
-                  href={`/${lng}/donate`}
-                  className="hidden sm:flex items-center justify-center px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-sm hover:bg-primary/90 transition-colors whitespace-nowrap min-w-[100px]"
-                >
-                  {t("buttons.donateNow")}
-                </Link>
-
                 {/* قائمة اختيار اللغة */}
                 <div className="relative" ref={languageMenuRef}>
                   <button
@@ -339,17 +329,6 @@ export default function Header({ lng }: HeaderProps) {
                 ))}
               </div>
             </div>
-          </div>
-
-          {/* زر التبرع في القائمة الجانبية - ثابت في الأسفل */}
-          <div className="p-6 border-t border-sand/30 bg-white flex-shrink-0">
-            <Link
-              href={`/${lng}/donate` as Route}
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="flex items-center justify-center w-full px-4 py-3 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors"
-            >
-              {t("buttons.donateNow")}
-            </Link>
           </div>
         </div>
       </div>

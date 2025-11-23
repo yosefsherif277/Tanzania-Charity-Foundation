@@ -15,7 +15,6 @@ export default function Footer({ lng }: FooterProps) {
   const quickLinks = [
   { href: `/${lng}/about` as Route, label: t('nav.about') },
   { href: `/${lng}/sponsor` as Route, label: t('nav.sponsor') },
-  { href: `/${lng}/donate` as Route, label: t('nav.donate') },
   { href: `/${lng}/contact` as Route, label: t('nav.contact') },
 ]
 
