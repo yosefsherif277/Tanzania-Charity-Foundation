@@ -1,5 +1,5 @@
 export const fallbackLng = 'ar'
-export const languages = ['ar', 'en', 'sw'] as const
+export const languages = ['ar', 'en', 'sw', 'it'] as const
 export const defaultNS = 'common'
 
 export type Locale = typeof languages[number]

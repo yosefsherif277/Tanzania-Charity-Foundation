@@ -5,7 +5,6 @@
     "ourPurpose": "هدفنا",
     "projects": "المشاريع",
     "waterWells": "آبار المياه",
-    "sponsor": "كفالة اليتيم",
     "contact": "اتصل بنا"
   },
   "header": {
@@ -21,7 +20,6 @@
   },
   "buttons": {
     "learnMore": "اعرف المزيد",
-    "sponsorNow": "كفل الآن",
     "contactUs": "اتصل بنا",
     "sendMessage": "إرسال الرسالة"
   },
@@ -61,21 +59,6 @@
     "shallowWell": "بئر ضحل",
     "deepWell": "بئر عميق",
     "servesPeople": "يخدم {{count}} شخص"
-  },
-  "sponsor": {
-    "title": "كفالة يتيم",
-    "description": "كفالتك توفر الأمل والتعليم ومستقبلًا أكثر إشراقًا لطفل محتاج.",
-    "monthlyCost": "٣٥ دولار / شهريًا",
-    "benefitsTitle": "فوائد الكفالة",
-    "benefitsDescription": "كفالتك توفر دعمًا شاملاً لطفل محتاج",
-    "benefit1": "الدعم التعليمي",
-    "benefit1Desc": "الرسوم المدرسية، الكتب، والمواد التعليمية",
-    "benefit2": "الرعاية الصحية",
-    "benefit2Desc": "الرعاية الطبية والمتابعة الصحية",
-    "benefit3": "الرعاية الشخصية",
-    "benefit3Desc": "الطعام، الملابس، والتطور الشخصي",
-    "childrenTitle": "الأطفال المنتظرين الكفالة",
-    "childrenDescription": "تعرف على بعض الأطفال الرائعين الذين ينتظرون كفالة منك"
   },
   "contact": {
     "title": "اتصل بنا",

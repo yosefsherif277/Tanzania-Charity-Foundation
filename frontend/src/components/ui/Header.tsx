@@ -65,13 +65,13 @@ export default function Header({ lng }: HeaderProps) {
     { href: `/${lng}/about`, label: t("nav.about") },
     { href: `/${lng}/our-purpose`, label: t("nav.ourPurpose") },
     { href: `/${lng}/projects`, label: t("nav.projects") },
-    { href: `/${lng}/sponsor`, label: t("nav.sponsor") },
     { href: `/${lng}/contact`, label: t("nav.contact") },
   ];
 
   const languages = [
     { code: "ar" as Locale, name: "العربية", dir: "rtl" },
     { code: "en" as Locale, name: "English", dir: "ltr" },
+    { code: "it" as Locale, name: "Italiano", dir: "ltr" },
     { code: "sw" as Locale, name: "Kiswahili", dir: "ltr" },
   ];
 
@@ -137,7 +137,9 @@ export default function Header({ lng }: HeaderProps) {
                         ? "العربية"
                         : lng === "en"
                         ? "English"
-                        : "Kiswahili"}
+                        : lng === "sw"
+                        ? "Kiswahili"
+                        : "Italiano"}
                     </span>
                     <svg
                       className={`w-4 h-4 transition-transform ${

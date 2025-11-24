@@ -12,7 +12,7 @@ export function middleware(request: NextRequest) {
   }
 
   // التحقق إذا كانت الصفحة تحتوي على لغة
-  if (pathname.startsWith('/ar') || pathname.startsWith('/en') || pathname.startsWith('/sw')) {
+  if (pathname.startsWith('/ar') || pathname.startsWith('/en') || pathname.startsWith('/it')) {
     return NextResponse.next()
   }
 

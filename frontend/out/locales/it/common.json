@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "ourPurpose": "Il Nostro Scopo",
+    "projects": "Progetti",
+    "waterWells": "Pozzi d'Acqua",
+    "contact": "Contatti"
+  },
+  "header": {
+    "title": "Fondazione Solidarietà Tanzania"
+  },
+  "footer": {
+    "description": "Attraverso la nostra premura e compassione, intendiamo dare ai bambini dell'Africa Orientale la possibilità di avere un futuro solido e pieno di speranza.","quickLinks": "Link Veloci",
+    "followUs": "Seguici",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "copyright": "Fondazione Solidarietà Tanzania. Tutti i diritti riservati."
+  },
+  "buttons": {
+    "learnMore": "Scopri di Più",
+    "contactUs": "Contattaci",
+    "sendMessage": "Invia Messaggio"
+  },
+  "home": {
+    "heroTitle": "Insieme, Costruiamo la Speranza",
+    "heroDescription": "Con la tua donazione di Sadaqah e Zakat puoi migliorare le condizioni di vita in Tanzania, fornendo risorse essenziali per l'acqua potabile, l'istruzione, la sanità e il sostegno agli orfani.",
+    "campaignProgress": "Avanzamento Campagna",
+    "wellCost": "Costo per costruire un Pozzo",
+    "sponsorWell": "Sponsorizza un Pozzo"
+  },
+  "about": {
+    "title": "Riguardo alla Fondazione Solidarietà Tanzania",
+    "description": "Leggi di più sul nostro impegno, sulla prospettiva futura e sui risultati ottenuti sul campo in Tanzania e nei Paesi limitrofi dell'Africa Orientale."
+  },
+  "ourPurpose": {
+    "title": "Il Nostro Scopo",
+    "description": "Ti raccontiamo chi siamo e cosa ci guida: scopri la nostra storia, la nostra missione e i valori fondamentali che sostengono il nostro lavoro a favore dell'umanità in Tanzania e nell'Africa Orientale.",
+    "mission": "La Nostra Missione",
+    "missionText": "dare forza alle comunità attraverso l'erogazione di aiuti compassionevoli e sostenibili. Promuoviamo uno sviluppo duraturo grazie a interventi mirati nell'istruzione, nella salute e nei progetti idrici.",
+    "vision": "La Nostra Visione",
+    "visionText": "Un'Africa Orientale dove ogni persona non solo soddisfi i suoi bisogni di base, ma abbia anche il diritto di realizzarsi pienamente, vivendo con dignità, ottimismo e fortezza d'animo.",
+    "values": "I Nostri Valori",
+    "valuesText": "Guidati dai principi di integrità, compassione e comunità, serviamo con rispetto, dedizione e un impegno incrollabile per l'umanità."
+  },
+  "projects": {
+    "title": "I Nostri Progetti",
+    "description": "Esplora i nostri progetti in corso e completati che stanno facendo la differenza nelle comunità in tutta la Tanzania.",
+    "featuredProjects": "I Nostri Progetti in Evidenza",
+    "featuredDescription": "Scopri come stiamo facendo la differenza nelle comunità in tutta la Tanzania",
+    "education": "Programmi di Istruzione",
+    "educationDesc": "Fornire istruzione di qualità e materiale scolastico ai bambini bisognosi",
+    "viewAllProjects": "Visualizza Tutti i Progetti"
+  },
+  "waterWells": {
+    "title": "Progetti Pozzi d'Acqua",
+    "description": "Portare acqua potabile alle comunità della Tanzania attraverso progetti di pozzi idrici sostenibili.",
+    "shallowWell": "Pozzo Poco Profondo",
+    "deepWell": "Pozzo Profondo",
+    "servesPeople": "Serve {{count}} persone"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "description": "Ci piacerebbe avere tue notizie. Contattaci per domande, supporto o opportunità di partnership. Il nostro team è qui per aiutarti.",
+    "fullName": "Nome Completo",
+    "email": "Indirizzo Email",
+    "subject": "Oggetto",
+    "message": "Il Tuo Messaggio",
+    "ourOffice": "Il Nostro Ufficio",
+    "connectWithUs": "Connettiti con Noi",
+    "sendMessage": "Inviaci un Messaggio",
+    "fullNamePlaceholder": "Il tuo nome completo",
+    "emailPlaceholder": "la tua email",
+    "subjectPlaceholder": "Titolo del tuo messaggio?",
+    "messagePlaceholder": "Scrivi qui il tuo messaggio...",
+    "contactInfo": "Informazioni di Contatto",
+    "address": "Il Nostro Indirizzo",
+    "phone": "Telefono",
+    "mapPlaceholder": "Mappa Interattiva"
+  },
+  "mission": {
+    "ourPrinciples": "I Nostri Principi Fondamentali",
+    "principlesDescription": "Siamo guidati dalla nostra missione, visione e valori per creare un impatto duraturo",
+    "wellsBuilt": "Pozzi Costruiti",
+    "childrenSponsored": "Bambini Adottati",
+    "yearsServing": "Anni di Servizio",
+    "livesImpacted": "Vite Trasformate"
+  },
+  "timeline": {
+    "ourJourney": "Il Nostro Percorso",
+    "foundationLaid": "Fondazione Stabilita",
+    "foundationDesc": "La Fondazione Amore Tanzania è stata fondata con un'unica visione: portare speranza e supporto tangibile alle comunità più vulnerabili.",
+    "firstWaterWell": "Primo Progetto Pozzo d'Acqua",
+    "firstWaterWellDesc": "Abbiamo completato il nostro primo progetto principale, fornendo un pozzo d'acqua potabile a un villaggio di oltre 2.000 persone, trasformando la salute e l'agricoltura locale.",
+    "educationProgram": "Lancio del Programma di Istruzione",
+    "educationProgramDesc": "Abbiamo ampliato il nostro focus per includere l'istruzione, sponsorizzando 50 studenti e fornendo materiale scolastico essenziale alle aree remote.",
+    "eastAfricaExpansion": "Espansione in Africa Orientale",
+    "eastAfricaExpansionDesc": "Abbiamo avviato nuovi progetti nei paesi limitrofi, espandendo la nostra portata e il nostro impatto nella più ampia regione dell'Africa Orientale."
+  },
+  "whyTanzania": {
+    "title": "Perché la Tanzania?",
+    "description1": "La Tanzania, una nazione di straordinaria bellezza e cultura vibrante, si trova anche ad affrontare sfide significative. Molte comunità mancano di accesso a necessità di base come acqua potabile, assistenza sanitaria e istruzione di qualità. Il nostro focus su questa regione è un impegno per la sua gente.",
+    "description2": "Lavoriamo fianco a fianco con i leader locali per creare soluzioni sostenibili che onorino la loro cultura e li autorizzino per un futuro più luminoso. I nostri sforzi sono una testimonianza della nostra convinzione che concentrando le nostre risorse, possiamo avere un impatto profondo e duraturo."
+  },
+  "cta": {
+    "joinMission": "Unisciti alla Nostra Missione Oggi",
+    "joinDescription": "La tua donazione può portare acqua potabile in un villaggio, mandare un bambino a scuola o fornire assistenza medica salvavita. Aiutaci a fare la differenza nella vita di coloro che ne hanno più bisogno.",
+    "readyToMakeDifference": "Pronto a Fare la Differenza?",
+    "differenceDescription": "Una singola donazione può cambiare la vita per generazioni. Il tuo dono di acqua potabile è un dono di salute, istruzione e opportunità. Unisciti a noi in questo lavoro benedetto e ottieni una ricompensa duratura."
+  }
+}

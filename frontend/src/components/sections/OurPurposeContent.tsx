@@ -5,7 +5,7 @@ import React from "react";
 export default function OurPurposeContent({
   lng,
 }: {
-  lng: "ar" | "en" | "sw";
+  lng: "ar" | "en" | "sw" | "it";
 }) {
   const { t } = useTranslation(lng, "common");
 

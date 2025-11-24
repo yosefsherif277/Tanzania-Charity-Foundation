@@ -2,7 +2,7 @@
 import { useTranslation } from "@/i18n/client";
 import Link from "next/dist/client/link";
 
-export default function ProjectsContent({ lng }: { lng: "ar" | "en" | "sw" }) {
+export default function ProjectsContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }) {
       const { t } = useTranslation(lng, "common");
 
   const projects = [
@@ -13,14 +13,6 @@ export default function ProjectsContent({ lng }: { lng: "ar" | "en" | "sw" }) {
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuCjGczLn5SAoeWQOr8Dx25ByMw07yjdHAN9geR6MDUU7Z87mDEIWWdygmOeEO-mis1kGondS6a3nRy5uo9tLGUYjK73oqSrIvloskx5ptK1L4Im3zGaANP65i2cH14E66IxPjKlGjGam4Ht1JcV75k9RVcV37habOJ_avDbA1IlXuxalJQDP_7lFZSX3X1K0eGNZNfgrqpHlp8upiN8uIagedwWoILOakfhXUjShCxKo85WIh-lI9MiB3TzrvRVdDpWvcmUR6gzry0",
       stats: "50+ Wells Built",
-    },
-    {
-      title: t("sponsor.title"),
-      description: t("sponsor.description"),
-      href: `/${lng}/sponsor`,
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBSV4-1Yii0HzaAqhfftbk76X8Z_rTumiUY1AvVOH6qJZIxau6Z7z1_76fkPnNgnU_kLhgPYBtkpzQPdMT_aeTXP0KUL0qUd5pYZlvx112-RvGaIWjX4zdHg3Pa8TXNnT7AT3E8AoGG0LnyGi9wq2x1PuSAgPzPzLu4Btq9asW5XIRrWDhYqsJNqwJPZiC8delHIX4MnLU4cQfPIDPKWZEMI-DFRiRCPEn1jg1pT6iI-t6aAnE1r6nLaePMpWJgz6aaBy1LnOEYhls",
-      stats: "100+ Children Sponsored",
     },
   ];
 

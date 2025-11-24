@@ -1,6 +1,6 @@
 "use client";
 import { useTranslation } from "@/i18n/client";
-export default function AboutContent({ lng }: { lng: "ar" | "en" | "sw" }) {
+export default function AboutContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }) {
   const { t } = useTranslation(lng, 'common')
 
   return (

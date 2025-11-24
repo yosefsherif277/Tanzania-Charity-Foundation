@@ -24,21 +24,9 @@ export default function ProjectsSection({ lng }: ProjectsSectionProps) {
       )
     },
     {
-      title: t('sponsor.title'),
-      description: t('sponsor.description'),
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBSV4-1Yii0HzaAqhfftbk76X8Z_rTumiUY1AvVOH6qJZIxau6Z7z1_76fkPnNgnU_kLhgPYBtkpzQPdMT_aeTXP0KUL0qUd5pYZlvx112-RvGaIWjX4zdHg3Pa8TXNnT7AT3E8AoGG0LnyGi9wq2x1PuSAgPzPzLu4Btq9asW5XIRrWDhYqsJNqwJPZiC8delHIX4MnLU4cQfPIDPKWZEMI-DFRiRCPEn1jg1pT6iI-t6aAnE1r6nLaePMpWJgz6aaBy1LnOEYhls',
-      href: `/${lng}/sponsor` as const, // أضف as const هنا
-      stats: '100+ Children',
-      icon: (
-        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2.01 2.01 0 0018.06 7h-.12a2 2 0 00-1.9 1.37l-.86 2.58c1.08.6 1.82 1.73 1.82 3.05v8h3zm-7.5-10.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm2 16v-7H9V9c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v6h1.5v7h4zm6.5 0v-4h1v-4c0-.82-.68-1.5-1.5-1.5h-2c-.82 0-1.5.68-1.5 1.5v4h1v4h3z"/>
-        </svg>
-      )
-    },
-    {
       title: t('projects.education', { defaultValue: 'Education Programs' }),
       description: t('projects.educationDesc', { defaultValue: 'Providing quality education and school supplies to underprivileged children' }),
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD5f9vZ0Ep9ufGAG2LE6njrJ1sbWONYnAbzF1q99UK570Pn7BKgiPKEbQegQs-eqLc-27T0aqnIzKDtO8IKr8ohRn8PxYZ3m9795El9hQ3qhP69dSO_QOYtXxj7aZaDCtxj1Fd98J11FTOuUbSOCRZYyVGgMIcZf3bOaTVojixoglRYnmqssr17UyPOQgs5vrHmVtGasckkIGhAr7tsn6QiK1nvCt4DVC7QHwGKVq-ePR2HeaH6-A57CuJ8bOl409xfCmQ9dPaV69M',
+      image: '/images/edu.jfif',
       href: `/${lng}/projects` as const, // أضف as const هنا
       stats: '500+ Students',
       icon: (

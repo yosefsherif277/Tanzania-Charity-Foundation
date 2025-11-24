@@ -2,7 +2,7 @@
 import { useTranslation } from '@/i18n/client'
 import ContactForm from '@/components/sections/ContactForm'
 
-export default function ContactContent({ lng }: { lng: "ar" | "en" | "sw" }) {
+export default function ContactContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }) {
   const { t } = useTranslation(lng, 'common')
   
   return (

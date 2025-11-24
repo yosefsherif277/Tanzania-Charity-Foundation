@@ -3,7 +3,7 @@ import React from 'react'
 import { useTranslation } from '@/i18n/client'
 import Link from 'next/link';
 
-export default function WaterWellsContent({ lng }: { lng: "ar" | "en" | "sw" }) {
+export default function WaterWellsContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }) {
   const { t } = useTranslation(lng, "common");
 
   const wells = [

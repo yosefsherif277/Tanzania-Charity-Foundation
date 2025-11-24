@@ -103,6 +103,10 @@
   html[lang="en"] body {
     font-family: var(--font-body);
   }
+
+  html[lang="it"] body {
+    font-family: var(--font-body);
+  }
   
   /* العناوين */
   h1, h2, h3, h4, h5, h6 {
@@ -268,6 +272,9 @@
 }
 
 .font-english {
+  font-family: var(--font-body);
+}
+.font-italian {
   font-family: var(--font-body);
 }
 

@@ -5,7 +5,6 @@
     "ourPurpose": "Kusudi Letu",
     "projects": "Miradi",
     "waterWells": "Visima vya Maji",
-    "sponsor": "Kumlea Yatima",
     "contact": "Wasiliana"
   },
   "header": {
@@ -21,7 +20,6 @@
   },
   "buttons": {
     "learnMore": "Jifunze Zaidi",
-    "sponsorNow": "Kumlea Sasa",
     "contactUs": "Wasiliana Nasi",
     "sendMessage": "Tuma Ujumbe"
   },
@@ -61,21 +59,6 @@
     "shallowWell": "Kisima Kikubwa",
     "deepWell": "Kisima Kirefu",
     "servesPeople": "Inahudumia watu {{count}}"
-  },
-  "sponsor": {
-    "title": "Kumlea Yatima",
-    "description": "Ufadhili wako unaleta matumaini, elimu, na mustakabali mzuri kwa mtoto aliye na hitaji.",
-    "monthlyCost": "$35 / Mwezi",
-    "benefitsTitle": "Faida za Ufadhili",
-    "benefitsDescription": "Ufadhili wako unatoa msaada kamili kwa mtoto aliye na hitaji",
-    "benefit1": "Msaada wa Elimu",
-    "benefit1Desc": "Ada za shule, vitabu, na vifaa vya kielimu",
-    "benefit2": "Huduma za Afya",
-    "benefit2Desc": "Huduma za matibabu na ufuatiliaji wa afya",
-    "benefit3": "Utunzaji Binafsi",
-    "benefit3Desc": "Chakula, mavazi, na maendeleo binafsi",
-    "childrenTitle": "Watoto Wanaongojea Ufadhili",
-    "childrenDescription": "Kutana na baadhi ya watoto wazuri wanaongojea mfadhili kama wewe"
   },
   "contact": {
     "title": "Wasiliana Nasi",
