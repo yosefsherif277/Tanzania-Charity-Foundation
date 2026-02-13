@@ -32,7 +32,7 @@
   },
   "about": {
     "title": "About Tanzania Charity Foundation",
-    "description": "Learn about our mission, vision, and the impact we're making in Tanzania and East Africa."
+    "description": "Tanzania Charity Foundation is a legally registered NGO in Tanzania since 2021. Operating from our headquarters in Tanga Region, we reach the most vulnerable rural villages, relying entirely on external donations to provide food, drill clean water wells, and support children's education."
   },
   "ourPurpose": {
     "title": "Our Purpose",
@@ -108,5 +108,15 @@
     "joinDescription": "Your contribution can bring clean water to a village, send a child to school, or provide life-saving medical care. Help us make a difference in the lives of those who need it most.",
     "readyToMakeDifference": "Ready to Make a Difference?",
     "differenceDescription": "A single donation can transform lives for generations. Your gift of clean water is a gift of health, education, and opportunity. Join us in this blessed work and earn a continuous reward."
+  },
+  "whatsapp": {
+    "title": "WhatsApp",
+    "responseTime": "Replies within 1 hour",
+    "welcome": "👋 Hello! How can we help you today?",
+    "secondMessage": "You can chat with our support team now 👇",
+    "startChat": "Start Chat",
+    "supportAvailable": "Support team available 24/7",
+    "tooltip": "Chat with us on WhatsApp",
+    "defaultMessage": "Hello, I would like to inquire about donations"
   }
 }

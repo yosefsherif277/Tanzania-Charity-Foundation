@@ -5,6 +5,7 @@ import { languages } from '@/i18n/settings'
 import type { Locale } from '@/i18n/settings'
 import Footer from '@/components/ui/Footer'
 import Header from '@/components/ui/Header'
+import WhatsAppChat from '@/components/ui/WhatsAppChat'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
 // تعريف الأنواع
 interface LayoutProps {
   children: React.ReactNode
-  params: Promise<{ lng: string }> // غير إلى string
+  params: Promise<{ lng: Locale }>
 }
 
 // Static params
@@ -41,6 +42,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
       <body className={inter.className}>
         <Header lng={safeLng} />
         {children}
+        <WhatsAppChat lng={safeLng} />
         <Footer lng={safeLng} />
       </body>
     </html>

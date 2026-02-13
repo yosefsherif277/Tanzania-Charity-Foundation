@@ -1,5 +1,6 @@
 "use client";
 import { useTranslation } from "@/i18n/client";
+import { AnimatedText } from "../animation/AnimatedText";
 export default function AboutContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }) {
   const { t } = useTranslation(lng, 'common')
 
@@ -30,11 +31,17 @@ export default function AboutContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }
                   </svg>
                 </div>
                 <h3 className="font-display text-2xl font-bold text-charcoal mb-4">
-                  {t('ourPurpose.mission')}
+                  <AnimatedText
+                    text={t('ourPurpose.mission')}
+                    delay={0.4}
+                  />
                 </h3>
-                <p className="text-charcoal/70 leading-relaxed">
-                  {t('ourPurpose.missionText')}
-                </p>
+                <div className="text-charcoal/70 leading-relaxed">
+                  <AnimatedText
+                    text={t('ourPurpose.missionText')}
+                    delay={0.6}
+                  />
+                </div>
               </div>
 
               <div className="card card-hover">
@@ -44,11 +51,17 @@ export default function AboutContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }
                   </svg>
                 </div>
                 <h3 className="font-display text-2xl font-bold text-charcoal mb-4">
-                  {t('ourPurpose.vision')}
+                  <AnimatedText
+                    text={t('ourPurpose.vision')}
+                    delay={0.4}
+                  />
                 </h3>
-                <p className="text-charcoal/70 leading-relaxed">
-                  {t('ourPurpose.visionText')}
-                </p>
+                <div className="text-charcoal/70 leading-relaxed">
+                  <AnimatedText
+                    text={t('ourPurpose.visionText')}
+                    delay={0.6}
+                  />
+                </div>
               </div>
             </div>
           </div>

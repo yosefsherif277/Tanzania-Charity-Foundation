@@ -2,6 +2,7 @@ import { Locale } from "@/i18n/settings";
 import HeroSection from "@/components/sections/HeroSection";
 import MissionSection from "@/components/sections/MissionSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
+import WhatsAppBtn from "@/components/ui/WhatsAppChat";
 
 // تعريف نوع الـ params
 interface PageProps {
