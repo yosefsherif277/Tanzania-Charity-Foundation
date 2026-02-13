@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 // تعريف الأنواع
 interface LayoutProps {
   children: React.ReactNode
-  params: Promise<{ lng: Locale }>
+  params: Promise<{ lng: string }>
 }
 
 // Static params

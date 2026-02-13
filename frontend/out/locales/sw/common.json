@@ -32,7 +32,7 @@
   },
   "about": {
     "title": "Kuhusu Msingi wa Upendo Tanzania",
-    "description": "Jifunze kuhusu ujumbe wetu, maono, na athari tunazofanya Tanzania na Afrika Mashariki."
+    "description": "Msingi wa Upendo Tanzania ni Shirika Lisilo la Kiserikali lililosajiliwa rasmi nchini Tanzania tangu 2021. Kutoka makao makuu yetu katika Mkoa wa Tanga, tunawafikia vijiji vya vijijini vinavyohitaji zaidi, tukitegemea kabisa michango ya nje kutoa chakula, kuchimba visima vya maji safi, na kusaidia elimu ya watoto."
   },
   "ourPurpose": {
     "title": "Kusudi Letu",
@@ -108,5 +108,15 @@
     "joinDescription": "Mchango wako unaweza kuleta maji safi kwenye kijiji, kumtuma mtoto shuleni, au kutoa huduma ya matibabu inayookoa maisha. Tusaidie kufanya tofauti katika maisha ya wale wanaohitaji zaidi.",
     "readyToMakeDifference": "Tayari Kufanya Tofauti?",
     "differenceDescription": "Mchango mmoja unaweza kubadilisha maisha kwa vizazi. Zawadi yako ya maji safi ni zawadi ya afya, elimu, na fursa. Jiunge nasi katika kazi hii baraka na upate ujira endelevu."
+  },
+  "whatsapp": {
+    "title": "WhatsApp",
+    "responseTime": "Hujibu ndani ya saa 1",
+    "welcome": "👋 Habari! Tunaweza kukusaidia vipi leo?",
+    "secondMessage": "Unaweza kuzungumza na timu yetu ya usaidizi sasa 👇",
+    "startChat": "Anza Mazungumzo",
+    "supportAvailable": "Timu ya usaidizi inapatikana 24/7",
+    "tooltip": "Zungumza nasi kwenye WhatsApp",
+    "defaultMessage": "Habari, ningependa kuuliza kuhusu michango"
   }
 }

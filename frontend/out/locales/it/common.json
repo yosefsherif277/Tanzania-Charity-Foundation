@@ -11,7 +11,8 @@
     "title": "Fondazione Solidarietà Tanzania"
   },
   "footer": {
-    "description": "Attraverso la nostra premura e compassione, intendiamo dare ai bambini dell'Africa Orientale la possibilità di avere un futuro solido e pieno di speranza.","quickLinks": "Link Veloci",
+    "description": "Attraverso la nostra premura e compassione, intendiamo dare ai bambini dell'Africa Orientale la possibilità di avere un futuro solido e pieno di speranza.",
+    "quickLinks": "Link Veloci",
     "followUs": "Seguici",
     "privacy": "Informativa sulla Privacy",
     "terms": "Termini di Servizio",
@@ -31,7 +32,7 @@
   },
   "about": {
     "title": "Riguardo alla Fondazione Solidarietà Tanzania",
-    "description": "Leggi di più sul nostro impegno, sulla prospettiva futura e sui risultati ottenuti sul campo in Tanzania e nei Paesi limitrofi dell'Africa Orientale."
+    "description": "Tanzania Charity Foundation è una ONG ufficialmente registrata in Tanzania dal 2021. Dalla nostra sede nella Regione di Tanga, raggiungiamo i villaggi rurali più bisognosi, basandoci interamente su donazioni esterne per fornire cibo, perforare pozzi d'acqua pulita e sostenere l'istruzione dei bambini."
   },
   "ourPurpose": {
     "title": "Il Nostro Scopo",
@@ -107,5 +108,15 @@
     "joinDescription": "La tua donazione può portare acqua potabile in un villaggio, mandare un bambino a scuola o fornire assistenza medica salvavita. Aiutaci a fare la differenza nella vita di coloro che ne hanno più bisogno.",
     "readyToMakeDifference": "Pronto a Fare la Differenza?",
     "differenceDescription": "Una singola donazione può cambiare la vita per generazioni. Il tuo dono di acqua potabile è un dono di salute, istruzione e opportunità. Unisciti a noi in questo lavoro benedetto e ottieni una ricompensa duratura."
+  },
+  "whatsapp": {
+    "title": "WhatsApp",
+    "responseTime": "Risponde entro 1 ora",
+    "welcome": "👋 Ciao! Come possiamo aiutarti oggi?",
+    "secondMessage": "Puoi parlare con il nostro team di supporto ora 👇",
+    "startChat": "Inizia Chat",
+    "supportAvailable": "Team di supporto disponibile 24/7",
+    "tooltip": "Chatta con noi su WhatsApp",
+    "defaultMessage": "Ciao, vorrei informarmi sulle donazioni"
   }
 }
