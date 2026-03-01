@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "@/i18n/client";
-import type { Locale } from "@/i18n/settings";
+import { languages, type Locale} from "@/i18n/settings";
 import { Route } from "next";
 import Image from "next/image";
 
@@ -68,12 +68,12 @@ export default function Header({ lng }: HeaderProps) {
     { href: `/${lng}/contact`, label: t("nav.contact") },
   ];
 
-  const languages = [
-    { code: "ar" as Locale, name: "العربية", dir: "rtl" },
-    { code: "en" as Locale, name: "English", dir: "ltr" },
-    { code: "it" as Locale, name: "Italiano", dir: "ltr" },
-    { code: "sw" as Locale, name: "Kiswahili", dir: "ltr" },
-  ];
+  const safeLanguages = Object.entries(languages).map(([code, name]) => ({
+    code: code as Locale,
+    name,
+    dir: code === "ar" ? "rtl" : "ltr",
+  }));
+    
 
   const isActive = (href: string) => {
     return pathname === href || pathname.startsWith(href + "/");
@@ -133,13 +133,7 @@ export default function Header({ lng }: HeaderProps) {
                     className="flex items-center justify-center rounded-lg h-9 px-3 bg-sand text-charcoal hover:bg-sand/80 transition-colors text-sm font-medium border border-sand/50 whitespace-nowrap"
                   >
                     <span className="mr-2">
-                      {lng === "ar"
-                        ? "العربية"
-                        : lng === "en"
-                        ? "English"
-                        : lng === "sw"
-                        ? "Kiswahili"
-                        : "Italiano"}
+                      {safeLanguages.find((safeLanguage) => safeLanguage.code === lng)?.name}
                     </span>
                     <svg
                       className={`w-4 h-4 transition-transform ${
@@ -161,19 +155,19 @@ export default function Header({ lng }: HeaderProps) {
                   {/* قائمة اللغة المنسدلة */}
                   {isLanguageMenuOpen && (
                     <div className="absolute top-full right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-sand/20 z-50 py-2">
-                      {languages.map((language) => (
+                      {safeLanguages.map((safeLanguage) => (
                         <Link
-                          key={language.code}
+                          key={safeLanguage.code}
                           href={
                             pathname.replace(
                               `/${lng}`,
-                              `/${language.code}`
+                              `/${safeLanguage.code}`
                             ) as Route
                           }
                           className="block px-4 py-2 text-sm text-charcoal hover:bg-sand/50 transition-colors"
                           onClick={() => setIsLanguageMenuOpen(false)}
                         >
-                          {language.name}
+                          {safeLanguage.name}
                         </Link>
                       ))}
                     </div>
@@ -313,20 +307,20 @@ export default function Header({ lng }: HeaderProps) {
                   : "Chagua Lugha"}
               </h3>
               <div className="space-y-2">
-                {languages.map((language) => (
+                {safeLanguages.map((safeLanguage) => (
                   <Link
-                    key={language.code}
+                    key={safeLanguage.code}
                     href={
-                      pathname.replace(`/${lng}`, `/${language.code}`) as Route
+                      pathname.replace(`/${lng}`, `/${safeLanguage.code}`) as Route
                     }
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={`block py-2 px-4 rounded-lg transition-colors text-sm ${
-                      lng === language.code
+                      lng === safeLanguage.code
                         ? "bg-primary text-primary-foreground font-semibold"
                         : "text-charcoal hover:bg-sand/50"
                     }`}
                   >
-                    {language.name}
+                    {safeLanguage.name}
                   </Link>
                 ))}
               </div>

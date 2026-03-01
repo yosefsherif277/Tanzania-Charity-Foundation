@@ -77,7 +77,7 @@
     "contactInfo": "Maelezo ya Mawasiliano",
     "address": "Anwani Yetu",
     "phone": "Simu",
-    "mapPlaceholder": "Ramani ya Kuingiliana"
+    "registeryId": "Nambari ya Usajili"
   },
   "mission": {
     "ourPrinciples": "Kanuni Zetu za Msingi",
@@ -110,8 +110,8 @@
     "differenceDescription": "Mchango mmoja unaweza kubadilisha maisha kwa vizazi. Zawadi yako ya maji safi ni zawadi ya afya, elimu, na fursa. Jiunge nasi katika kazi hii baraka na upate ujira endelevu."
   },
   "whatsapp": {
-    "title": "WhatsApp",
-    "responseTime": "Hujibu ndani ya saa 1",
+    "title": "Msingi wa Upendo Tanzania",
+    "responseTime": "Mtandaoni",
     "welcome": "👋 Habari! Tunaweza kukusaidia vipi leo?",
     "secondMessage": "Unaweza kuzungumza na timu yetu ya usaidizi sasa 👇",
     "startChat": "Anza Mazungumzo",

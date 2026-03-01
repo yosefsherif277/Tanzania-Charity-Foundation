@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "ourPurpose": "Unser Ziel",
+    "projects": "Projekte",
+    "waterWells": "Wasserbrunnen",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "title": "Tansania Hilfsstiftung"
+  },
+  "footer": {
+    "description": "Wir bringen Hoffnung und bauen Zukunft für Kinder in Ostafrika durch Mitgefühl und Fürsorge.",
+    "quickLinks": "Schnelllinks",
+    "followUs": "Folgen Sie Uns",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "Tansania Hilfsstiftung. Alle Rechte vorbehalten."
+  },
+  "buttons": {
+    "learnMore": "Mehr Erfahren",
+    "contactUs": "Kontaktieren Sie Uns",
+    "sendMessage": "Nachricht Senden"
+  },
+  "home": {
+    "heroTitle": "Gemeinsam bauen wir Hoffnung",
+    "heroDescription": "Unterstützen Sie sauberes Wasser, Bildung, Gesundheitsversorgung und Patenschaften für Waisen in Tansania. Ihre Spende und Zakat bewirken nachhaltige Veränderungen.",
+    "campaignProgress": "Kampagnenfortschritt",
+    "wellCost": "Kosten für einen Flachbrunnen",
+    "sponsorWell": "Einen Brunnen sponsern"
+  },
+  "about": {
+    "title": "Über die Tansania Hilfsstiftung",
+    "description": "Die Tansania Hilfsstiftung ist eine seit 2021 in Tansania offiziell registrierte Nichtregierungsorganisation. Von unserem Hauptsitz in der Region Tanga aus erreichen wir die bedürftigsten ländlichen Dörfer und sind für die Bereitstellung von Nahrungsmitteln, den Bau von Wasserbrunnen und die Unterstützung der Kinderbildung vollständig auf externe Spenden angewiesen."
+  },
+  "ourPurpose": {
+    "title": "Unser Ziel",
+    "description": "Entdecken Sie die Geschichte, Mission und Werte, die unsere humanitäre Arbeit in Tansania und Ostafrika antreiben.",
+    "mission": "Unsere Mission",
+    "missionText": "Nachhaltige und mitfühlende Hilfe zu leisten, die Gemeinschaften stärkt und langfristige Entwicklung durch Bildungs-, Gesundheits- und Sauberwasserinitiativen fördert.",
+    "vision": "Unsere Vision",
+    "visionText": "Ein Ostafrika, in dem jeder Einzelne Zugang zu den lebensnotwendigen Dingen hat und die Möglichkeit, in Würde, Hoffnung und Glauben zu gedeihen.",
+    "values": "Unsere Werte",
+    "valuesText": "Geleitet von den Prinzipien der Integrität, des Mitgefühls und der Gemeinschaft dienen wir mit Respekt, Hingabe und unerschütterlichem Engagement für die Menschlichkeit."
+  },
+  "projects": {
+    "title": "Unsere Projekte",
+    "description": "Entdecken Sie unsere laufenden und abgeschlossenen Projekte, die in Gemeinden in ganz Tansania etwas bewirken.",
+    "featuredProjects": "Unsere Highlights",
+    "featuredDescription": "Entdecken Sie, wie wir in Gemeinden in ganz Tansania etwas bewirken",
+    "education": "Bildungsprogramme",
+    "educationDesc": "Bereitstellung hochwertiger Bildung und Schulmaterialien für bedürftige Kinder",
+    "viewAllProjects": "Alle Projekte ansehen"
+  },
+  "waterWells": {
+    "title": "Wasserbrunnenprojekte",
+    "description": "Bringen Sie durch nachhaltige Wasserbrunnenprojekte sauberes, sicheres Trinkwasser in Gemeinden in Tansania.",
+    "shallowWell": "Flachbrunnen",
+    "deepWell": "Tiefbrunnen",
+    "servesPeople": "Versorgt {{count}} Menschen"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "description": "Wir freuen uns, von Ihnen zu hören. Kontaktieren Sie uns bei Fragen, Unterstützung oder Partnerschaftsmöglichkeiten. Unser Team ist hier, um Ihnen zu helfen.",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "subject": "Betreff",
+    "message": "Ihre Nachricht",
+    "ourOffice": "Unser Büro",
+    "connectWithUs": "Verbinden Sie sich mit uns",
+    "sendMessage": "Senden Sie uns eine Nachricht",
+    "fullNamePlaceholder": "Ihr vollständiger Name",
+    "emailPlaceholder": "Ihre E-Mail-Adresse",
+    "subjectPlaceholder": "Was ist der Betreff Ihrer Nachricht?",
+    "messagePlaceholder": "Schreiben Sie Ihre Nachricht hier...",
+    "contactInfo": "Kontaktinformationen",
+    "address": "Unsere Adresse",
+    "phone": "Telefon",
+    "registeryId": "Registrierungsnummer"
+  },
+  "mission": {
+    "ourPrinciples": "Unsere Grundprinzipien",
+    "principlesDescription": "Geleitet von unserer Mission, Vision und unseren Werten, um dauerhafte Wirkung zu erzielen",
+    "wellsBuilt": "Gebaute Brunnen",
+    "childrenSponsored": "Geförderte Kinder",
+    "yearsServing": "Jahre im Dienst",
+    "livesImpacted": "Berührte Leben"
+  },
+  "timeline": {
+    "ourJourney": "Unsere Reise",
+    "foundationLaid": "Gründung der Stiftung",
+    "foundationDesc": "Die Tansania Hilfsstiftung wurde mit einer einzigen Vision gegründet: Den am stärksten gefährdeten Gemeinschaften Hoffnung und konkrete Hilfe zu bringen.",
+    "firstWaterWell": "Erstes Wasserbrunnenprojekt",
+    "firstWaterWellDesc": "Wir schlossen unser erstes großes Projekt ab und versorgten ein Dorf mit über 2.000 Menschen mit einem sauberen Wasserbrunnen, was die lokale Gesundheit und Landwirtschaft veränderte.",
+    "educationProgram": "Start des Bildungsprogramms",
+    "educationProgramDesc": "Wir erweiterten unseren Fokus auf Bildung, sponserten 50 Schüler und stellten entlegenen Gebieten wichtige Schulmaterialien zur Verfügung.",
+    "eastAfricaExpansion": "Ausdehnung nach Ostafrika",
+    "eastAfricaExpansionDesc": "Wir starteten neue Initiativen in Nachbarländern und erweiterten unsere Reichweite und Wirkung in der gesamten ostafrikanischen Region."
+  },
+  "whyTanzania": {
+    "title": "Warum Tansania?",
+    "description1": "Tansania, ein Land von atemberaubender Schönheit und lebendiger Kultur, steht auch vor großen Herausforderungen. Vielen Gemeinschaften fehlt der Zugang zu Grundbedürfnissen wie sauberem Wasser, Gesundheitsversorgung und hochwertiger Bildung. Unser Fokus auf diese Region ist eine Verpflichtung gegenüber ihrem Volk.",
+    "description2": "Wir arbeiten Hand in Hand mit lokalen Führungskräften, um nachhaltige Lösungen zu schaffen, die ihre Kultur ehren und sie für eine bessere Zukunft stärken. Unsere Bemühungen sind ein Beweis für unseren Glauben, dass wir durch die Bündelung unserer Ressourcen eine tiefgreifende und dauerhafte Wirkung erzielen können."
+  },
+  "cta": {
+    "joinMission": "Schließen Sie sich heute unserer Mission an",
+    "joinDescription": "Ihr Beitrag kann einem Dorf sauberes Wasser bringen, ein Kind zur Schule schicken oder lebensrettende medizinische Versorgung ermöglichen. Helfen Sie uns, im Leben derer, die es am meisten brauchen, einen Unterschied zu machen.",
+    "readyToMakeDifference": "Bereit, etwas zu bewirken?",
+    "differenceDescription": "Eine einzige Spende kann Leben über Generationen hinweg verändern. Ihr Geschenk von sauberem Wasser ist ein Geschenk der Gesundheit, Bildung und Chance. Schließen Sie sich uns in dieser gesegneten Arbeit an und ernten Sie eine kontinuierliche Belohnung."
+  },
+  "whatsapp": {
+    "title": "Tansania Hilfsstiftung",
+    "responseTime": "Online",
+    "welcome": "👋 Hallo! Wie können wir Ihnen heute helfen?",
+    "secondMessage": "Sie können jetzt mit unserem Support-Team chatten 👇",
+    "startChat": "Chat starten",
+    "supportAvailable": "Support-Team 24/7 verfügbar",
+    "tooltip": "Chatten Sie mit uns auf WhatsApp",
+    "defaultMessage": "Hallo, ich möchte mich über Spenden informieren"
+  }
+  
+}

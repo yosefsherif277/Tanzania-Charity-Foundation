@@ -77,7 +77,7 @@
     "contactInfo": "Contact Information",
     "address": "Our Address",
     "phone": "Phone",
-    "mapPlaceholder": "Interactive Map"
+    "registeryId": "Registry ID"
   },
   "mission": {
     "ourPrinciples": "Our Core Principles",
@@ -110,8 +110,8 @@
     "differenceDescription": "A single donation can transform lives for generations. Your gift of clean water is a gift of health, education, and opportunity. Join us in this blessed work and earn a continuous reward."
   },
   "whatsapp": {
-    "title": "WhatsApp",
-    "responseTime": "Replies within 1 hour",
+    "title": "Tanzania Charity Foundation",
+    "responseTime": "Online",
     "welcome": "👋 Hello! How can we help you today?",
     "secondMessage": "You can chat with our support team now 👇",
     "startChat": "Start Chat",

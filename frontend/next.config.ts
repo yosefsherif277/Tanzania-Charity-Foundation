@@ -1,10 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // هذا السحر!
+  output: 'export',
   trailingSlash: true,
   images: {
-    unoptimized: true  // مهم للصور
-  }
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig

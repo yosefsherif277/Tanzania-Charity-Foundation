@@ -9,9 +9,7 @@ export default async function AboutPage({
   const { lng } = await params;
   return (
     <div className="min-h-screen flex flex-col">
-      <main className="flex-1">
         <AboutContent lng={lng} />
-      </main>
     </div>
   );
 }

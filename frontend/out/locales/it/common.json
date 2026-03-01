@@ -77,7 +77,7 @@
     "contactInfo": "Informazioni di Contatto",
     "address": "Il Nostro Indirizzo",
     "phone": "Telefono",
-    "mapPlaceholder": "Mappa Interattiva"
+    "registeryId": "Numero di Registro"
   },
   "mission": {
     "ourPrinciples": "I Nostri Principi Fondamentali",
@@ -110,8 +110,8 @@
     "differenceDescription": "Una singola donazione può cambiare la vita per generazioni. Il tuo dono di acqua potabile è un dono di salute, istruzione e opportunità. Unisciti a noi in questo lavoro benedetto e ottieni una ricompensa duratura."
   },
   "whatsapp": {
-    "title": "WhatsApp",
-    "responseTime": "Risponde entro 1 ora",
+    "title": "Fondazione Solidarietà Tanzania",
+    "responseTime": "Online",
     "welcome": "👋 Ciao! Come possiamo aiutarti oggi?",
     "secondMessage": "Puoi parlare con il nostro team di supporto ora 👇",
     "startChat": "Inizia Chat",

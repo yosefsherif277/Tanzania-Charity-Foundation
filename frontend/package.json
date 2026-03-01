@@ -9,8 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@imagekit/next": "^2.1.5",
     "framer-motion": "^12.23.18",
     "i18next-resources-to-backend": "^1.2.1",
+    "imagekit": "^6.0.0",
     "lucide-react": "^0.544.0",
     "next": "^16.1.6",
     "next-i18next": "^15.4.2",

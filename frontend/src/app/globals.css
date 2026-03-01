@@ -92,6 +92,10 @@
   }
 
   /* تطبيق الخطوط بناءً على اللغة */
+  html body {
+    font-family: var(--font-body);
+  }
+  
   html[lang="ar"] body {
     font-family: var(--font-arabic);
   }
@@ -100,13 +104,6 @@
     font-family: var(--font-swahili);
   }
   
-  html[lang="en"] body {
-    font-family: var(--font-body);
-  }
-
-  html[lang="it"] body {
-    font-family: var(--font-body);
-  }
   
   /* العناوين */
   h1, h2, h3, h4, h5, h6 {
@@ -133,7 +130,7 @@
   
   /* البطاقات */
   .card {
-    @apply bg-background rounded-xl shadow-lg border border-sand/20 p-6;
+    @apply bg-white/10 rounded-xl shadow-lg border border-sand/20 p-6;
   }
   
   .card-hover {
@@ -267,20 +264,6 @@
   text-align: left;
 }
 
-.font-arabic {
-  font-family: var(--font-arabic);
-}
-
-.font-english {
-  font-family: var(--font-body);
-}
-.font-italian {
-  font-family: var(--font-body);
-}
-
-.font-swahili {
-  font-family: var(--font-swahili);
-}
 
 /* تحسينات للأداء */
 .will-change-transform {

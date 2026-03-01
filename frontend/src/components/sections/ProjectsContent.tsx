@@ -1,9 +1,10 @@
 "use client";
 import { useTranslation } from "@/i18n/client";
+import { Locale } from "@/i18n/settings";
 import Link from "next/dist/client/link";
 
-export default function ProjectsContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }) {
-      const { t } = useTranslation(lng, "common");
+export default function ProjectsContent({ lng }: { lng: Locale }) {
+  const { t } = useTranslation(lng, "common");
 
   const projects = [
     {

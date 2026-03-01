@@ -1,9 +1,8 @@
 "use client";
-import React from 'react'
-import { useTranslation } from '@/i18n/client'
-import Link from 'next/link';
+import { useTranslation } from "@/i18n/client";
+import { Locale } from "@/i18n/settings";
 
-export default function WaterWellsContent({ lng }: { lng: "ar" | "en" | "sw" | "it" }) {
+export default function WaterWellsContent({ lng }: { lng: Locale }) {
   const { t } = useTranslation(lng, "common");
 
   const wells = [
@@ -87,5 +86,4 @@ export default function WaterWellsContent({ lng }: { lng: "ar" | "en" | "sw" | "
       </main>
     </div>
   );
-
 }

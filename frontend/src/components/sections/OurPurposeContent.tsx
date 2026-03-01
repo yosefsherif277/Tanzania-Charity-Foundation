@@ -1,12 +1,8 @@
 "use client";
 import { useTranslation } from "@/i18n/client";
-import React from "react";
+import { Locale } from "@/i18n/settings";
 
-export default function OurPurposeContent({
-  lng,
-}: {
-  lng: "ar" | "en" | "sw" | "it";
-}) {
+export default function OurPurposeContent({ lng }: { lng: Locale }) {
   const { t } = useTranslation(lng, "common");
 
   return (
@@ -16,7 +12,7 @@ export default function OurPurposeContent({
         className="relative py-20 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url(https://lh3.googleusercontent.com/aida-public/AB6AXuD34zBBXAsdi52SUUj1W5EeAPh1L6Dc1o3T8YbZNUarkYyNvYSAiFyk9hltRMHj_BKUleRwxAZ_IcJnYpavtOhyWuEgDEfkEYldc1wnV8NEkh0d5G8fmG1BViumkte9R4IuNXHOnzQZ4y0v-j7iAQzm43ZppUIhVVI2OocXp11wMdKtdtACh4reUImurtOpXxTKY1su-o6vMPGKi5dbTx0sUED-msoqLsB9GgE_9QSXYa4A-iodiKty-o7p2avwTbGLnS0LV0Efdaw)",
+            "linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 1) 100%), url(https://lh3.googleusercontent.com/aida-public/AB6AXuD34zBBXAsdi52SUUj1W5EeAPh1L6Dc1o3T8YbZNUarkYyNvYSAiFyk9hltRMHj_BKUleRwxAZ_IcJnYpavtOhyWuEgDEfkEYldc1wnV8NEkh0d5G8fmG1BViumkte9R4IuNXHOnzQZ4y0v-j7iAQzm43ZppUIhVVI2OocXp11wMdKtdtACh4reUImurtOpXxTKY1su-o6vMPGKi5dbTx0sUED-msoqLsB9GgE_9QSXYa4A-iodiKty-o7p2avwTbGLnS0LV0Efdaw)",
         }}
       >
         <div className="container mx-auto px-4 sm:px-6">
@@ -29,25 +25,20 @@ export default function OurPurposeContent({
             </p>
           </div>
         </div>
-      </section>
 
-      {/* Core Principles */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 sm:px-6">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-charcoal mb-12">
-            {t("ourPurpose.title")}
-          </h2>
+        {/* Core Principles */}
 
+        <div className="container mx-auto mt-10 px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Mission Card */}
             <div className="card card-hover text-center">
-              <div className="mx-auto w-12 h-12 flex items-center justify-center rounded-full bg-sand/50 text-accent mb-4">
+              <div className="mx-auto w-12 h-12 flex items-center justify-center rounded-full bg-sand text-accent mb-4">
                 <svg
                   className="w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                 </svg>
               </div>
               <h3 className="font-display text-2xl font-bold text-primary mb-4">
@@ -60,13 +51,13 @@ export default function OurPurposeContent({
 
             {/* Vision Card */}
             <div className="card card-hover text-center">
-              <div className="mx-auto w-12 h-12 flex items-center justify-center rounded-full bg-sand/50 text-accent mb-4">
+              <div className="mx-auto w-12 h-12 flex items-center justify-center rounded-full bg-sand text-accent mb-4">
                 <svg
                   className="w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5-9h10v2H7z" />
+                  <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
                 </svg>
               </div>
               <h3 className="font-display text-2xl font-bold text-primary mb-4">
@@ -79,7 +70,7 @@ export default function OurPurposeContent({
 
             {/* Values Card */}
             <div className="card card-hover text-center">
-              <div className="mx-auto w-12 h-12 flex items-center justify-center rounded-full bg-sand/50 text-accent mb-4">
+              <div className="mx-auto w-12 h-12 flex items-center justify-center rounded-full bg-sand text-accent mb-4">
                 <svg
                   className="w-6 h-6"
                   fill="currentColor"

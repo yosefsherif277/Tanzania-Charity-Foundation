@@ -25,7 +25,7 @@ interface LayoutProps {
 
 // Static params
 export function generateStaticParams() {
-  return languages.map((lng) => ({ lng }))
+  return Object.keys(languages).map((lng) => ({ lng }))
 }
 
 // Layout الرئيسي
@@ -33,7 +33,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
   const { lng } = await params
   
   // تحقق مباشر مع قيمة افتراضية
-  const safeLng: Locale = languages.includes(lng as Locale) 
+  const safeLng: Locale = Object.keys(languages).includes(lng)
     ? lng as Locale 
     : 'en'
   

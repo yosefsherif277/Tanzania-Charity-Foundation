@@ -1,3 +1,4 @@
+import { languages } from '@/i18n/settings'
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
@@ -5,6 +6,7 @@ const PUBLIC_FILE = /\.(.*)$/
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
+  const lngKeys = Object.keys(languages)
 
   // تجاهل الملفات العامة
   if (PUBLIC_FILE.test(pathname)) {
@@ -12,7 +14,7 @@ export function middleware(request: NextRequest) {
   }
 
   // التحقق إذا كانت الصفحة تحتوي على لغة
-  if (pathname.startsWith('/ar') || pathname.startsWith('/en') || pathname.startsWith('/it')) {
+  if (lngKeys.some((lngKey) => pathname.startsWith(`/${lngKey}/`))) {
     return NextResponse.next()
   }
 
