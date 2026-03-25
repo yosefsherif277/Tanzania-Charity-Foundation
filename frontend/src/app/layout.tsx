@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   icons: {
     icon: "/images/charityIconWithoutBGandWords.ico",
   },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({

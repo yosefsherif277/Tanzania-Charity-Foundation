@@ -65,7 +65,7 @@ export default function Header({ lng }: HeaderProps) {
     { href: `/${lng}/about`, label: t("nav.about") },
     { href: `/${lng}/our-purpose`, label: t("nav.ourPurpose") },
     { href: `/${lng}/projects`, label: t("nav.projects") },
-    { href: `/${lng}/water-wells`, label: t("nav.waterWells") },
+    { href: `/${lng}/projects/water-wells`, label: t("nav.waterWells") },
     { href: `/${lng}/gallery`, label: t("nav.gallery") },
     { href: `/${lng}/contact`, label: t("nav.contact") },
   ];
@@ -87,17 +87,8 @@ export default function Header({ lng }: HeaderProps) {
 
   // منع التمرير عند فتح القائمة على الهاتف
   useEffect(() => {
-    if (isMobileMenuOpen) {
-      document.body.style.overflow = "hidden";
-      document.documentElement.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-      document.documentElement.style.overflow = "unset";
-    }
-    return () => {
-      document.body.style.overflow = "unset";
-      document.documentElement.style.overflow = "unset";
-    };
+    document.body.classList.toggle("no-scroll", isMobileMenuOpen);
+    document.documentElement.classList.toggle("no-scroll", isMobileMenuOpen);
   }, [isMobileMenuOpen]);
 
   return (

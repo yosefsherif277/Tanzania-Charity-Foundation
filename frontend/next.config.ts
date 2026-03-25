@@ -2,16 +2,19 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  optimizeFonts: true,
   images: {
     unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "res.cloudinary.com",
+        hostname: "*.imagekit.io",
+      },
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
       },
     ],
-  }
+  },
 };
 
 module.exports = nextConfig;

@@ -47,6 +47,11 @@
   --text-secondary: 156 163 175;
 }
 
+/* منع التمرير */
+.no-scroll {
+  overflow: hidden !important;
+}
+
 @theme {
   /* إعدادات الخطوط */
   --font-display: "Playfair Display", serif;
@@ -299,9 +304,13 @@
 }
 
 /* منع تحريك الـ viewport أثناء الأنيميشن */
-html,
-body {
+html {
   overflow-x: hidden !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+body {
   width: 100% !important;
   position: relative !important;
 }
@@ -309,8 +318,7 @@ body {
 /* تحسين خاص للهاتف */
 @media (max-width: 768px) {
   body {
-    overscroll-behavior: none !important;
-    -webkit-overflow-scrolling: auto !important;
+    touch-action: manipulation;
   }
 
   .no-animation {
