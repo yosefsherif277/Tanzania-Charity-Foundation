@@ -30,9 +30,7 @@ export default function HeroSection({ lng }: HeroSectionProps) {
       <div 
         className="absolute inset-0 transition-transform duration-1000 ease-in-out"
         style={{
-          transform: lng === 'ar' 
-            ? `translateX(${currentSlide * 100}vw)` 
-            : `translateX(${currentSlide * -100}vw)`,
+          transform: `translateX(${currentSlide * -100}vw)`,
           display: 'flex',
           width: `${slides.length * 100}vw`
         }}

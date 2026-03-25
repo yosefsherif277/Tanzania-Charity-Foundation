@@ -4,14 +4,9 @@ import MissionSection from "@/components/sections/MissionSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import WhatsAppBtn from "@/components/ui/WhatsAppChat";
 
-// تعريف نوع الـ params
-interface PageProps {
-  params: {
-    lng: Locale;
-  };
-}
-export default async function HomePage({ params }: PageProps) {
-  const { lng } = await params;
+export default async function HomePage({ params }: PageProps<"/[lng]">) {
+  const resolvedParams = (await params) as { lng: Locale };
+  const { lng } = resolvedParams;
 
   return (
     <div className="min-h-screen flex flex-col">

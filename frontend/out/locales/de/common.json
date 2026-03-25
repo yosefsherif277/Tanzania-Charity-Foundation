@@ -5,6 +5,7 @@
     "ourPurpose": "Unser Ziel",
     "projects": "Projekte",
     "waterWells": "Wasserbrunnen",
+    "gallery": "Galerie",
     "contact": "Kontakt"
   },
   "header": {
@@ -118,6 +119,15 @@
     "supportAvailable": "Support-Team 24/7 verfügbar",
     "tooltip": "Chatten Sie mit uns auf WhatsApp",
     "defaultMessage": "Hallo, ich möchte mich über Spenden informieren"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "description": "Entdecken Sie unsere Fotogalerie, die die Auswirkungen unserer Arbeit in Tansania zeigt.",
+    "loading": "Bilder werden geladen...",
+    "noImages": "Keine Bilder verfügbar",
+    "categories": {
+      "all": "Alle",
+      "general": "Allgemein"
+    }
   }
-  
 }

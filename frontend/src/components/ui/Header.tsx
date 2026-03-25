@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "@/i18n/client";
-import { languages, type Locale} from "@/i18n/settings";
+import { languages, type Locale } from "@/i18n/settings";
 import { Route } from "next";
 import Image from "next/image";
 
@@ -29,7 +29,7 @@ export default function Header({ lng }: HeaderProps) {
       const height = header.offsetHeight;
       document.documentElement.style.setProperty(
         "--header-height",
-        `${height}px`
+        `${height}px`,
       );
     };
 
@@ -65,6 +65,8 @@ export default function Header({ lng }: HeaderProps) {
     { href: `/${lng}/about`, label: t("nav.about") },
     { href: `/${lng}/our-purpose`, label: t("nav.ourPurpose") },
     { href: `/${lng}/projects`, label: t("nav.projects") },
+    { href: `/${lng}/water-wells`, label: t("nav.waterWells") },
+    { href: `/${lng}/gallery`, label: t("nav.gallery") },
     { href: `/${lng}/contact`, label: t("nav.contact") },
   ];
 
@@ -73,7 +75,6 @@ export default function Header({ lng }: HeaderProps) {
     name,
     dir: code === "ar" ? "rtl" : "ltr",
   }));
-    
 
   const isActive = (href: string) => {
     return pathname === href || pathname.startsWith(href + "/");
@@ -117,6 +118,9 @@ export default function Header({ lng }: HeaderProps) {
                     alt="Charity Foundation Logo"
                     width={40}
                     height={40}
+                    priority
+                    placeholder="blur"
+                    blurDataURL="/images/charityIconWithoutBG.png"
                   />
                 </div>
                 <h1 className="font-display text-xl font-bold max-w-[120px] sm:max-w-none break-words sm:break-normal">
@@ -133,7 +137,11 @@ export default function Header({ lng }: HeaderProps) {
                     className="flex items-center justify-center rounded-lg h-9 px-3 bg-sand text-charcoal hover:bg-sand/80 transition-colors text-sm font-medium border border-sand/50 whitespace-nowrap"
                   >
                     <span className="mr-2">
-                      {safeLanguages.find((safeLanguage) => safeLanguage.code === lng)?.name}
+                      {
+                        safeLanguages.find(
+                          (safeLanguage) => safeLanguage.code === lng,
+                        )?.name
+                      }
                     </span>
                     <svg
                       className={`w-4 h-4 transition-transform ${
@@ -161,7 +169,7 @@ export default function Header({ lng }: HeaderProps) {
                           href={
                             pathname.replace(
                               `/${lng}`,
-                              `/${safeLanguage.code}`
+                              `/${safeLanguage.code}`,
                             ) as Route
                           }
                           className="block px-4 py-2 text-sm text-charcoal hover:bg-sand/50 transition-colors"
@@ -303,15 +311,18 @@ export default function Header({ lng }: HeaderProps) {
                 {lng === "ar"
                   ? "اختر اللغة"
                   : lng === "en"
-                  ? "Select Language"
-                  : "Chagua Lugha"}
+                    ? "Select Language"
+                    : "Chagua Lugha"}
               </h3>
               <div className="space-y-2">
                 {safeLanguages.map((safeLanguage) => (
                   <Link
                     key={safeLanguage.code}
                     href={
-                      pathname.replace(`/${lng}`, `/${safeLanguage.code}`) as Route
+                      pathname.replace(
+                        `/${lng}`,
+                        `/${safeLanguage.code}`,
+                      ) as Route
                     }
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={`block py-2 px-4 rounded-lg transition-colors text-sm ${

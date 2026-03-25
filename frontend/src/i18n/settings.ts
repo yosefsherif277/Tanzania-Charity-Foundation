@@ -5,7 +5,14 @@ export const languages = {
   en: 'English',
   sw: 'Swahili',
   it: 'Italian',
-  de: 'Deutsch'
+  de: 'Deutsch',
+  tr: 'Türkçe',
+  fr: 'Français',
+  es: 'Español',
+  pt: 'Português',
+  ru: 'Русский',
+  zh: '中文',
+  ja: '日本語'
 }
 export const defaultNS = 'common'
 

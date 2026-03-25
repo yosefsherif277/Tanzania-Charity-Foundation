@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "ourPurpose": "Amacımız",
+    "projects": "Projeler",
+    "waterWells": "Su Kuyuları",
+    "gallery": "Galeri",
+    "contact": "İletişim"
+  },
+  "header": {
+    "title": "Tanzanya Yardım Vakfı"
+  },
+  "footer": {
+    "description": "Doğu Afrika'daki çocuklara şefkat ve bakım yoluyla umut getiriyor ve gelecekler inşa ediyoruz.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "followUs": "Bizi Takip Edin",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "copyright": "Tanzanya Yardım Vakfı. Tüm Hakları Saklıdır."
+  },
+  "buttons": {
+    "learnMore": "Daha Fazla Bilgi",
+    "contactUs": "Bize Ulaşın",
+    "sendMessage": "Mesaj Gönder"
+  },
+  "home": {
+    "heroTitle": "Birlikte Umut İnşa Ediyoruz",
+    "heroDescription": "Tanzanya'da temiz su, eğitim, sağlık hizmetleri ve yetim sponsorluğunu destekleyin. Sadakanız ve zekatınız kalıcı değişim getirir.",
+    "campaignProgress": "Kampanya İlerlemesi",
+    "wellCost": "Sığ bir kuyu inşa etme maliyeti",
+    "sponsorWell": "Bir Kuyuya Sponsor Ol"
+  },
+  "about": {
+    "title": "Tanzanya Yardım Vakfı Hakkında",
+    "description": "Tanzanya Yardım Vakfı, 2021'den beri Tanzanya'da resmi olarak kayıtlı bir sivil toplum kuruluşudur. Merkezimiz Tanga Bölgesi'nden en çok ihtiyaç sahibi kırsal köylere ulaşıyor ve gıda sağlamak, su kuyuları açmak ve çocukların eğitimini desteklemek için tamamen dış bağışlara güveniyoruz."
+  },
+  "ourPurpose": {
+    "title": "Amacımız",
+    "description": "Tanzanya ve Doğu Afrika'daki insani çalışmalarımızı yönlendiren hikayeyi, misyonu ve değerleri keşfedin.",
+    "mission": "Misyonumuz",
+    "missionText": "Toplumları güçlendiren ve eğitim, sağlık hizmetleri ve temiz su girişimleri yoluyla uzun vadeli kalkınmayı teşvik eden sürdürülebilir, şefkatli yardım sağlamak.",
+    "vision": "Vizyonumuz",
+    "visionText": "Her bireyin hayatın temel ihtiyaçlarına erişebildiği ve onur, umut ve inançla gelişme fırsatına sahip olduğu bir Doğu Afrika.",
+    "values": "Değerlerimiz",
+    "valuesText": "Dürüstlük, şefkat ve topluluk ilkeleriyle hareket ederek saygı, özveri ve insanlığa sarsılmaz bağlılıkla hizmet ediyoruz."
+  },
+  "projects": {
+    "title": "Projelerimiz",
+    "description": "Tanzanya genelindeki topluluklarda fark yaratan devam eden ve tamamlanan projelerimizi keşfedin.",
+    "featuredProjects": "Öne Çıkan Projelerimiz",
+    "featuredDescription": "Tanzanya genelindeki topluluklarda nasıl fark yarattığımızı keşfedin",
+    "education": "Eğitim Programları",
+    "educationDesc": "İhtiyaç sahibi çocuklara kaliteli eğitim ve okul malzemeleri sağlamak",
+    "viewAllProjects": "Tüm Projeleri Görüntüle"
+  },
+  "waterWells": {
+    "title": "Su Kuyusu Projeleri",
+    "description": "Sürdürülebilir su kuyusu projeleriyle Tanzanya'daki topluluklara temiz, güvenli içme suyu getirmek.",
+    "shallowWell": "Sığ Kuyu",
+    "deepWell": "Derin Kuyu",
+    "servesPeople": "{{count}} kişiye hizmet veriyor"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "description": "Sizden haber almayı çok isteriz. Sorularınız, destek veya ortaklık fırsatları için bize ulaşın. Ekibimiz size yardımcı olmak için burada.",
+    "fullName": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "ourOffice": "Ofisimiz",
+    "connectWithUs": "Bize Bağlanın",
+    "sendMessage": "Bize Mesaj Gönderin",
+    "fullNamePlaceholder": "Adınız Soyadınız",
+    "emailPlaceholder": "email@example.com",
+    "subjectPlaceholder": "Mesajınızın konusu nedir?",
+    "messagePlaceholder": "Mesajınızı buraya yazın...",
+    "contactInfo": "İletişim Bilgileri",
+    "address": "Adresimiz",
+    "phone": "Telefon",
+    "registeryId": "Resmi Kayıt Numarası"
+  },
+  "mission": {
+    "ourPrinciples": "Temel İlkelerimiz",
+    "principlesDescription": "Kalıcı bir etki yaratmak için misyonumuz, vizyonumuz ve değerlerimizle hareket ediyoruz",
+    "wellsBuilt": "İnşa Edilen Su Kuyuları",
+    "childrenSponsored": "Sponsor Olunan Çocuklar",
+    "yearsServing": "Hizmet Yılı",
+    "livesImpacted": "Etkilenen Hayatlar"
+  },
+  "timeline": {
+    "ourJourney": "Yolculuğumuz",
+    "foundationLaid": "Vakfın Kuruluşu",
+    "foundationDesc": "Tanzanya Yardım Vakfı, tek bir vizyonla kuruldu: En savunmasız topluluklara umut ve somut yardım getirmek.",
+    "firstWaterWell": "İlk Su Kuyusu Projesi",
+    "firstWaterWellDesc": "İlk büyük projemizi tamamlayarak 2.000'den fazla kişinin yaşadığı bir köye temiz su kuyusu sağladık ve yerel sağlık ve tarımı dönüştürdük.",
+    "educationProgram": "Eğitim Programının Başlatılması",
+    "educationProgramDesc": "Odağımızı eğitimi de içerecek şekilde genişlettik, 50 öğrenciye sponsor olduk ve uzak bölgelere temel okul malzemeleri sağladık.",
+    "eastAfricaExpansion": "Doğu Afrika'ya Genişleme",
+    "eastAfricaExpansionDesc": "Komşu ülkelerde yeni girişimler başlatarak erişimimizi ve etkimizi daha geniş Doğu Afrika bölgesine yaydık."
+  },
+  "whyTanzania": {
+    "title": "Neden Tanzanya?",
+    "description1": "Tanzanya, nefes kesici güzelliği ve canlı kültürü olan bir ulus, aynı zamanda önemli zorluklarla da karşı karşıya. Birçok topluluk, temiz su, sağlık hizmetleri ve kaliteli eğitim gibi temel ihtiyaçlara erişimden yoksun. Bu bölgeye odaklanmamız, halkına olan bağlılığımızdır.",
+    "description2": "Kültürlerine saygı duyan ve onları daha parlak bir gelecek için güçlendiren sürdürülebilir çözümler oluşturmak için yerel liderlerle el ele çalışıyoruz. Çabalarımız, kaynaklarımızı yoğunlaştırarak derin ve kalıcı bir etki yaratabileceğimize olan inancımızın bir kanıtıdır."
+  },
+  "cta": {
+    "joinMission": "Bugün Misyonumuza Katılın",
+    "joinDescription": "Katkınız bir köye temiz su getirebilir, bir çocuğu okula gönderebilir veya hayat kurtaran tıbbi bakım sağlayabilir. En çok ihtiyacı olanların hayatlarında fark yaratmamıza yardım edin.",
+    "readyToMakeDifference": "Fark Yaratmaya Hazır mısınız?",
+    "differenceDescription": "Tek bir bağış nesiller boyu hayatları değiştirebilir. Temiz su hediyeniz, sağlık, eğitim ve fırsat hediyesidir. Bu kutsal çalışmada bize katılın ve sürekli bir ödül kazanın."
+  },
+  "whatsapp": {
+    "title": "Tanzanya Yardım Vakfı",
+    "responseTime": "Çevrimiçi",
+    "welcome": "👋 Merhaba! Size bugün nasıl yardımcı olabiliriz?",
+    "secondMessage": "Destek ekibimizle şimdi sohbet edebilirsiniz 👇",
+    "startChat": "Sohbete Başla",
+    "supportAvailable": "Destek ekibi 7/24 hizmetinizde",
+    "tooltip": "WhatsApp'ta bizimle sohbet edin",
+    "defaultMessage": "Merhaba, bağışlar hakkında bilgi almak istiyorum"
+  },
+  "gallery": {
+    "title": "Galeri",
+    "description": "Tanzanya'daki çalışmalarımızın etkisini gösteren fotoğraf galerimizi keşfedin.",
+    "loading": "Resimler yükleniyor...",
+    "noImages": "Kullanılabilir resim yok",
+    "categories": {
+      "all": "Tümü",
+      "general": "Genel"
+    }
+  }
+}

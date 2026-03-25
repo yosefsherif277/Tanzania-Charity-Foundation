@@ -110,7 +110,7 @@ export default function ContactContent({ lng }: { lng: Locale }) {
                   </div>
                   <div>
                     <h3 className="font-display text-lg font-bold text-charcoal mb-1">
-                      {t("contact.registryId", { defaultValue: "Registry ID" })}
+                      {t("contact.registeryId", { defaultValue: "Registry ID" })}
                     </h3>
                     <p className="text-charcoal/70">00NGO/R/2497</p>
                   </div>

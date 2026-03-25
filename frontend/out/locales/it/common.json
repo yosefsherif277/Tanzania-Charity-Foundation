@@ -5,6 +5,7 @@
     "ourPurpose": "Il Nostro Scopo",
     "projects": "Progetti",
     "waterWells": "Pozzi d'Acqua",
+    "gallery": "Galleria",
     "contact": "Contatti"
   },
   "header": {
@@ -118,5 +119,15 @@
     "supportAvailable": "Team di supporto disponibile 24/7",
     "tooltip": "Chatta con noi su WhatsApp",
     "defaultMessage": "Ciao, vorrei informarmi sulle donazioni"
+  },
+  "gallery": {
+    "title": "Galleria",
+    "description": "Esplora la nostra galleria fotografica che mostra l'impatto del nostro lavoro in Tanzania.",
+    "loading": "Caricamento immagini...",
+    "noImages": "Nessuna immagine disponibile",
+    "categories": {
+      "all": "Tutte",
+      "general": "Generale"
+    }
   }
 }

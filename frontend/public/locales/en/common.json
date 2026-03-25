@@ -5,6 +5,7 @@
     "ourPurpose": "Our Purpose",
     "projects": "Projects",
     "waterWells": "Water Wells",
+    "gallery": "Gallery",
     "contact": "Contact"
   },
   "header": {
@@ -118,5 +119,15 @@
     "supportAvailable": "Support team available 24/7",
     "tooltip": "Chat with us on WhatsApp",
     "defaultMessage": "Hello, I would like to inquire about donations"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "Explore our photo gallery showcasing the impact of our work in Tanzania.",
+    "loading": "Loading images...",
+    "noImages": "No images available",
+    "categories": {
+      "all": "All",
+      "general": "General"
+    }
   }
 }

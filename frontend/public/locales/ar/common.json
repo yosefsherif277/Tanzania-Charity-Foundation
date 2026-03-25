@@ -5,6 +5,7 @@
     "ourPurpose": "هدفنا",
     "projects": "المشاريع",
     "waterWells": "آبار المياه",
+    "gallery": "المعرض",
     "contact": "اتصل بنا"
   },
   "header": {
@@ -118,6 +119,15 @@
     "supportAvailable": "فريق الدعم متواجد 24/7",
     "tooltip": "تحدث معنا على واتساب",
     "defaultMessage": "مرحباً، أريد الاستفسار عن التبرعات"
+  },
+  "gallery": {
+    "title": "المعرض",
+    "description": "استكشف معرض الصور الذي يعرض تأثير عملنا في تنزانيا.",
+    "loading": "جاري تحميل الصور...",
+    "noImages": "لا توجد صور حالياً",
+    "categories": {
+      "all": "الكل",
+      "general": "عام"
+    }
   }
-  
 }

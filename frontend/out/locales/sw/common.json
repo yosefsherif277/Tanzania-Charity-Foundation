@@ -5,6 +5,7 @@
     "ourPurpose": "Kusudi Letu",
     "projects": "Miradi",
     "waterWells": "Visima vya Maji",
+    "gallery": "Matunzio",
     "contact": "Wasiliana"
   },
   "header": {
@@ -118,5 +119,15 @@
     "supportAvailable": "Timu ya usaidizi inapatikana 24/7",
     "tooltip": "Zungumza nasi kwenye WhatsApp",
     "defaultMessage": "Habari, ningependa kuuliza kuhusu michango"
+  },
+  "gallery": {
+    "title": "Matunzio",
+    "description": "Chunguza matunzio yetu ya picha inayoonyesha athari ya kazi yetu nchini Tanzania.",
+    "loading": "Inapakia picha...",
+    "noImages": "Hakuna picha zinazopatikana",
+    "categories": {
+      "all": "Zote",
+      "general": "Jumla"
+    }
   }
 }
