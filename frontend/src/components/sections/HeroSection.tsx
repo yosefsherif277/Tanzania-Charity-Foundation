@@ -11,9 +11,9 @@ export default function HeroSection({ lng }: HeroSectionProps) {
   const { t } = useTranslation(lng, "common");
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // إنشاء مصفوفة بالصور المرقمة من 1 إلى 7
+  // إنشاء مصفوفة بالصور المرقمة من 1 إلى 8
   const slides = Array.from(
-    { length: 7 },
+    { length: 8 },
     (_, i) => `/images/slider/${i + 1}.jpeg`,
   );
 
