@@ -4,7 +4,6 @@
     "about": "关于我们",
     "ourPurpose": "我们的宗旨",
     "projects": "项目",
-    "waterWells": "水井",
     "gallery": "画廊",
     "contact": "联系方式"
   },
@@ -46,13 +45,67 @@
     "valuesText": "在诚信、同情和社区的指导下，我们以尊重、奉献和对人类坚定不移的承诺服务。"
   },
   "projects": {
-    "title": "我们的项目",
-    "description": "探索我们在坦桑尼亚各地社区产生影响的正在进行和已完成的项目。",
-    "featuredProjects": "我们的特色项目",
-    "featuredDescription": "探索我们如何在坦桑尼亚各地社区产生影响",
-    "education": "教育项目",
-    "educationDesc": "为贫困儿童提供优质教育和学习用品",
-    "viewAllProjects": "查看所有项目"
+    "option_label": "选项 {{num}}",
+    "categories": {
+      "water_wells": "水井项目",
+      "sadaka": "萨德格与屠宰",
+      "health": "医疗健康项目",
+      "education": "教育支助项目",
+      "masjid": "清真寺建设",
+      "livelihood": "民生与生计项目"
+    },
+    "headers": {
+      "features": "项目详情",
+      "depth": "深度",
+      "beneficiaries": "受益人数",
+      "description": "项目描述",
+      "price": "费用 (美元)",
+      "price_unit": "价格"
+    },
+    "well_types": {
+      "well_shallow": "浅水井",
+      "well_mid": "中深井",
+      "well_deep": "深水井",
+      "well_solar": "太阳能水井"
+    },
+    "features": {
+      "pulley": "滑轮桶装系统",
+      "pump_local": "手动泵 (本地)",
+      "pump_indian_2": "印度 Mark II 型泵",
+      "pump_indian_3": "印度 Mark III 型泵",
+      "pump_electric": "电力潜水泵",
+      "system_small": "小型太阳能系统",
+      "system_medium": "中型太阳能系统",
+      "system_large": "大型太阳能系统"
+    },
+    "labels": {
+      "depth_range": "{{min}}米 - {{max}}米",
+      "people_count": "{{count}} 人",
+      "people_plus": "{{count}}+ 人",
+      "ask": "请咨询报价",
+      "per_sqm": "每平方米 $250",
+      "per_unit": "每单位 ${{amount}}"
+    },
+    "items": {
+      "goat": "山羊",
+      "sheep": "绵羊",
+      "cow": "奶牛",
+      "std": "标准体型",
+      "big": "大型体型",
+      "medical_camp": "医疗营 (普通体检)",
+      "cataract_surgery": "白内障手术项目",
+      "dispensary_completion": "诊所/病房完工工程",
+      "school_wash": "学校卫生项目 (水井与厕所)",
+      "school_completion": "学校建设完工",
+      "school_classes": "新建教室",
+      "new_school": "全方位新建学校",
+      "new_mosque": "新建清真寺 (精装修)",
+      "mosque_completion": "现有清真寺完工工程",
+      "goats_keeping": "山羊养殖 (针对寡妇和阿訇)",
+      "dairy_cows": "奶牛养殖项目",
+      "small_shops": "小型零售店 (针对残疾人士)",
+      "beekeeping": "养蜂与蜂蜜生产项目"
+    }
   },
   "waterWells": {
     "title": "水井项目",

@@ -4,7 +4,6 @@
     "about": "À Propos",
     "ourPurpose": "Notre Mission",
     "projects": "Projets",
-    "waterWells": "Puits d'Eau",
     "gallery": "Galerie",
     "contact": "Contact"
   },
@@ -46,13 +45,67 @@
     "valuesText": "Guidés par les principes d'intégrité, de compassion et de communauté, nous servons avec respect, dévouement et un engagement inébranlable envers l'humanité."
   },
   "projects": {
-    "title": "Nos Projets",
-    "description": "Explorez nos projets en cours et achevés qui font la différence dans les communautés à travers la Tanzanie.",
-    "featuredProjects": "Nos Projets Vedettes",
-    "featuredDescription": "Découvrez comment nous faisons la différence dans les communautés à travers la Tanzanie",
-    "education": "Programmes Éducatifs",
-    "educationDesc": "Fournir une éducation de qualité et du matériel scolaire aux enfants défavorisés",
-    "viewAllProjects": "Voir Tous les Projets"
+    "option_label": "Option {{num}}",
+    "categories": {
+      "water_wells": "Puits d'Eau",
+      "sadaka": "Sadaqa & Sacrifices",
+      "health": "Projets de Santé",
+      "education": "Projets d'Éducation",
+      "masjid": "Construction de Mosquées",
+      "livelihood": "Projets de Subsistance"
+    },
+    "headers": {
+      "features": "Détails du Projet",
+      "depth": "Profondeur",
+      "beneficiaries": "Bénéficiaires",
+      "description": "Description",
+      "price": "Coût (USD)",
+      "price_unit": "Prix"
+    },
+    "well_types": {
+      "well_shallow": "Puits Peu Profond",
+      "well_mid": "Puits de Profondeur Moyenne",
+      "well_deep": "Puits Profond",
+      "well_solar": "Puits Solaire"
+    },
+    "features": {
+      "pulley": "Système de Poulie et Seau",
+      "pump_local": "Pompe à Main (Locale)",
+      "pump_indian_2": "Pompe Indian Mark II",
+      "pump_indian_3": "Pompe Indian Mark III",
+      "pump_electric": "Pompe Électrique Submersible",
+      "system_small": "Petit Système Solaire",
+      "system_medium": "Système Solaire Moyen",
+      "system_large": "Grand Système Solaire"
+    },
+    "labels": {
+      "depth_range": "{{min}}m - {{max}}m",
+      "people_count": "{{count}} Personnes",
+      "people_plus": "{{count}}+ Personnes",
+      "ask": "Sur demande",
+      "per_sqm": "250$ par m²",
+      "per_unit": "${{amount}} par unité"
+    },
+    "items": {
+      "goat": "Chèvre",
+      "sheep": "Mouton",
+      "cow": "Vache",
+      "std": "Taille Standard",
+      "big": "Grande Taille",
+      "medical_camp": "Camp Médical (Examen Général)",
+      "cataract_surgery": "Chirurgie de la Cataracte",
+      "dispensary_completion": "Achèvement de Dispensaire/Centre de Santé",
+      "school_wash": "Projet WASH Scolaire (Puits & Toilettes)",
+      "school_completion": "Achèvement de Construction d'École",
+      "school_classes": "Nouvelles Salles de Classe",
+      "new_school": "Construction d'une Nouvelle École",
+      "new_mosque": "Nouvelle Mosquée (Clé en main)",
+      "mosque_completion": "Achèvement de Mosquées Existantes",
+      "goats_keeping": "Élevage de Chèvres (Veuves & Imams)",
+      "dairy_cows": "Projet de Vaches Laitières",
+      "small_shops": "Petits Commerces (Personnes Handicapées)",
+      "beekeeping": "Apiculture & Production de Miel"
+    }
   },
   "waterWells": {
     "title": "Projets de Puits d'Eau",

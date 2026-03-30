@@ -4,7 +4,6 @@
     "about": "Über Uns",
     "ourPurpose": "Unser Ziel",
     "projects": "Projekte",
-    "waterWells": "Wasserbrunnen",
     "gallery": "Galerie",
     "contact": "Kontakt"
   },
@@ -46,13 +45,67 @@
     "valuesText": "Geleitet von den Prinzipien der Integrität, des Mitgefühls und der Gemeinschaft dienen wir mit Respekt, Hingabe und unerschütterlichem Engagement für die Menschlichkeit."
   },
   "projects": {
-    "title": "Unsere Projekte",
-    "description": "Entdecken Sie unsere laufenden und abgeschlossenen Projekte, die in Gemeinden in ganz Tansania etwas bewirken.",
-    "featuredProjects": "Unsere Highlights",
-    "featuredDescription": "Entdecken Sie, wie wir in Gemeinden in ganz Tansania etwas bewirken",
-    "education": "Bildungsprogramme",
-    "educationDesc": "Bereitstellung hochwertiger Bildung und Schulmaterialien für bedürftige Kinder",
-    "viewAllProjects": "Alle Projekte ansehen"
+    "option_label": "Option {{num}}",
+    "categories": {
+      "water_wells": "Wasserbrunnen",
+      "sadaka": "Sadaqa & Opferung",
+      "health": "Gesundheitsprojekte",
+      "education": "Bildungsprojekte",
+      "masjid": "Moscheebau",
+      "livelihood": "Existenzsicherung"
+    },
+    "headers": {
+      "features": "Projektdetails",
+      "depth": "Tiefe",
+      "beneficiaries": "Begünstigte",
+      "description": "Beschreibung",
+      "price": "Kosten (USD)",
+      "price_unit": "Preis"
+    },
+    "well_types": {
+      "well_shallow": "Flachbrunnen",
+      "well_mid": "Mitteltiefer Brunnen",
+      "well_deep": "Tiefbrunnen",
+      "well_solar": "Solarbrunnen"
+    },
+    "features": {
+      "pulley": "Rollen- und Eimersystem",
+      "pump_local": "Handpumpe (Lokal)",
+      "pump_indian_2": "Indian Mark II Pumpe",
+      "pump_indian_3": "Indian Mark III Pumpe",
+      "pump_electric": "Elektrische Tauchpumpe",
+      "system_small": "Kleine Solaranlage",
+      "system_medium": "Mittlere Solaranlage",
+      "system_large": "Große Solaranlage"
+    },
+    "labels": {
+      "depth_range": "{{min}}m - {{max}}m",
+      "people_count": "{{count}} Personen",
+      "people_plus": "{{count}}+ Personen",
+      "ask": "Auf Anfrage",
+      "per_sqm": "$250 pro m²",
+      "per_unit": "${{amount}} pro Einheit"
+    },
+    "items": {
+      "goat": "Ziege",
+      "sheep": "Schaf",
+      "cow": "Kuh",
+      "std": "Standardgröße",
+      "big": "Große Größe",
+      "medical_camp": "Medizinisches Camp (Allgemeiner Checkup)",
+      "cataract_surgery": "Katarakt-Operationen",
+      "dispensary_completion": "Fertigstellung von Krankenstationen",
+      "school_wash": "Schul-WASH-Projekt (Brunnen & Sanitär)",
+      "school_completion": "Schulbau-Fertigstellung",
+      "school_classes": "Neue Klassenzimmer",
+      "new_school": "Neubau einer Schule",
+      "new_mosque": "Neue Moschee (Schlüsselfertig)",
+      "mosque_completion": "Fertigstellung bestehender Moscheen",
+      "goats_keeping": "Ziegenhaltung (Witwen & Imame)",
+      "dairy_cows": "Milchkuh-Projekt",
+      "small_shops": "Kleine Läden (für Menschen mit Behinderung)",
+      "beekeeping": "Bienenzucht & Honigproduktion"
+    }
   },
   "waterWells": {
     "title": "Wasserbrunnenprojekte",

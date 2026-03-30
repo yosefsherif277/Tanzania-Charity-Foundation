@@ -4,7 +4,6 @@
     "about": "Sobre Nosotros",
     "ourPurpose": "Nuestro Propósito",
     "projects": "Proyectos",
-    "waterWells": "Pozos de Agua",
     "gallery": "Galería",
     "contact": "Contacto"
   },
@@ -46,13 +45,67 @@
     "valuesText": "Guiados por los principios de integridad, compasión y comunidad, servimos con respeto, dedicación y compromiso inquebrantable con la humanidad."
   },
   "projects": {
-    "title": "Nuestros Proyectos",
-    "description": "Explore nuestros proyectos en curso y completados que están marcando la diferencia en comunidades de toda Tanzania.",
-    "featuredProjects": "Nuestros Proyectos Destacados",
-    "featuredDescription": "Descubra cómo estamos marcando la diferencia en comunidades de toda Tanzania",
-    "education": "Programas Educativos",
-    "educationDesc": "Proporcionar educación de calidad y útiles escolares a niños desfavorecidos",
-    "viewAllProjects": "Ver Todos los Proyectos"
+    "option_label": "Opción {{num}}",
+    "categories": {
+      "water_wells": "Pozos de Agua",
+      "sadaka": "Sadaqa y Sacrificio",
+      "health": "Proyectos de Salud",
+      "education": "Proyectos Educativos",
+      "masjid": "Construcción de Mezquitas",
+      "livelihood": "Proyectos de Sustento"
+    },
+    "headers": {
+      "features": "Detalles del Proyecto",
+      "depth": "Profundidad",
+      "beneficiaries": "Beneficiarios",
+      "description": "Descripción",
+      "price": "Costo (USD)",
+      "price_unit": "Precio"
+    },
+    "well_types": {
+      "well_shallow": "Pozo Superficial",
+      "well_mid": "Pozo de Profundidad Media",
+      "well_deep": "Pozo Profundo",
+      "well_solar": "Pozo Solar"
+    },
+    "features": {
+      "pulley": "Sistema de Polea y Cubo",
+      "pump_local": "Bomba de Mano (Local)",
+      "pump_indian_2": "Bomba Indian Mark II",
+      "pump_indian_3": "Bomba Indian Mark III",
+      "pump_electric": "Bomba Eléctrica Sumergible",
+      "system_small": "Sistema Solar Pequeño",
+      "system_medium": "Sistema Solar Medio",
+      "system_large": "Sistema Solar Grande"
+    },
+    "labels": {
+      "depth_range": "{{min}}m - {{max}}m",
+      "people_count": "{{count}} Personas",
+      "people_plus": "Más de {{count}} personas",
+      "ask": "Consultar precio",
+      "per_sqm": "$250 por m²",
+      "per_unit": "${{amount}} por unidad"
+    },
+    "items": {
+      "goat": "Cabra",
+      "sheep": "Oveja",
+      "cow": "Vaca",
+      "std": "Tamaño Estándar",
+      "big": "Tamaño Grande",
+      "medical_camp": "Campamento Médico (Chequeo General)",
+      "cataract_surgery": "Cirugías de Cataratas",
+      "dispensary_completion": "Finalización de Dispensario/Clínica",
+      "school_wash": "Proyecto WASH Escolar (Pozo y Baños)",
+      "school_completion": "Finalización de Escuela",
+      "school_classes": "Nuevas Aulas Escolares",
+      "new_school": "Construcción de Nueva Escuela",
+      "new_mosque": "Nueva Mezquita (Acabado Completo)",
+      "mosque_completion": "Finalización de Mezquitas Existentes",
+      "goats_keeping": "Cría de Cabras (Viudas e Imanes)",
+      "dairy_cows": "Proyecto de Vacas Lecheras",
+      "small_shops": "Pequeñas Tiendas (para Discapacitados)",
+      "beekeeping": "Apicultura y Producción de Miel"
+    }
   },
   "waterWells": {
     "title": "Proyectos de Pozos de Agua",

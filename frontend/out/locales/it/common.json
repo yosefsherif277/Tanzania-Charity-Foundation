@@ -4,7 +4,6 @@
     "about": "Chi Siamo",
     "ourPurpose": "Il Nostro Scopo",
     "projects": "Progetti",
-    "waterWells": "Pozzi d'Acqua",
     "gallery": "Galleria",
     "contact": "Contatti"
   },
@@ -46,13 +45,67 @@
     "valuesText": "Guidati dai principi di integrità, compassione e comunità, serviamo con rispetto, dedizione e un impegno incrollabile per l'umanità."
   },
   "projects": {
-    "title": "I Nostri Progetti",
-    "description": "Esplora i nostri progetti in corso e completati che stanno facendo la differenza nelle comunità in tutta la Tanzania.",
-    "featuredProjects": "I Nostri Progetti in Evidenza",
-    "featuredDescription": "Scopri come stiamo facendo la differenza nelle comunità in tutta la Tanzania",
-    "education": "Programmi di Istruzione",
-    "educationDesc": "Fornire istruzione di qualità e materiale scolastico ai bambini bisognosi",
-    "viewAllProjects": "Visualizza Tutti i Progetti"
+    "option_label": "Opzione {{num}}",
+    "categories": {
+      "water_wells": "Pozzi d'Acqua",
+      "sadaka": "Sadaqa e Sacrifici",
+      "health": "Progetti Sanitari",
+      "education": "Progetti Educativi",
+      "masjid": "Costruzione Moschee",
+      "livelihood": "Sostentamento e Sviluppo"
+    },
+    "headers": {
+      "features": "Dettagli Progetto",
+      "depth": "Profondità",
+      "beneficiaries": "Beneficiari",
+      "description": "Descrizione",
+      "price": "Costo (USD)",
+      "price_unit": "Prezzo"
+    },
+    "well_types": {
+      "well_shallow": "Pozzo Superficiale",
+      "well_mid": "Pozzo a Media Profondità",
+      "well_deep": "Pozzo Profondo",
+      "well_solar": "Pozzo a Energia Solare"
+    },
+    "features": {
+      "pulley": "Sistema a Carrucola e Secchio",
+      "pump_local": "Pompa a Mano (Locale)",
+      "pump_indian_2": "Pompa Indian Mark II",
+      "pump_indian_3": "Pompa Indian Mark III",
+      "pump_electric": "Elettropompa Sommersa",
+      "system_small": "Impianto Solare Piccolo",
+      "system_medium": "Impianto Solare Medio",
+      "system_large": "Impianto Solare Grande"
+    },
+    "labels": {
+      "depth_range": "{{min}}m - {{max}}m",
+      "people_count": "{{count}} Persone",
+      "people_plus": "Più di {{count}} persone",
+      "ask": "Prezzo su richiesta",
+      "per_sqm": "$250 al MQ",
+      "per_unit": "${{amount}} per unità"
+    },
+    "items": {
+      "goat": "Capra",
+      "sheep": "Pecora",
+      "cow": "Mucca",
+      "std": "Taglia Standard",
+      "big": "Taglia Grande",
+      "medical_camp": "Campo Medico (Check-up Generale)",
+      "cataract_surgery": "Chirurgia della Cataratta",
+      "dispensary_completion": "Completamento Dispensario/Clinica",
+      "school_wash": "Progetto WASH Scolastico (Pozzo e Servizi)",
+      "school_completion": "Completamento Edifici Scolastici",
+      "school_classes": "Nuove Aule Scolastiche",
+      "new_school": "Costruzione Nuova Scuola",
+      "new_mosque": "Nuova Moschea (Chiavi in mano)",
+      "mosque_completion": "Completamento di Moschee Esistenti",
+      "goats_keeping": "Allevamento di Capre (Vedove e Imam)",
+      "dairy_cows": "Progetto Mucche da Latte",
+      "small_shops": "Piccoli Negozi (per Disabili)",
+      "beekeeping": "Apicoltura e Produzione di Miele"
+    }
   },
   "waterWells": {
     "title": "Progetti Pozzi d'Acqua",

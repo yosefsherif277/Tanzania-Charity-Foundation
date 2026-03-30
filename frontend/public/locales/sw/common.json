@@ -4,7 +4,6 @@
     "about": "Kuhusu Sisi",
     "ourPurpose": "Kusudi Letu",
     "projects": "Miradi",
-    "waterWells": "Visima vya Maji",
     "gallery": "Matunzio",
     "contact": "Wasiliana"
   },
@@ -46,13 +45,67 @@
     "valuesText": "Tukiongozwa na kanuni za uadilifu, huruma, na jamii, tunahudumu kwa heshima, kujitolea, na ahadi isiyo na msimamo kwa ubinadamu."
   },
   "projects": {
-    "title": "Miradi Yetu",
-    "description": "Chunguza miradi yetu inayoendelea na iliyokamilika inayofanya tofauti katika jamii Tanzania nzima.",
-    "featuredProjects": "Miradi Yetu Maalum",
-    "featuredDescription": "Gundua jinsi tunavyofanya tofauti katika jamii Tanzania nzima",
-    "education": "Mipango ya Elimu",
-    "educationDesc": "Kutoa elimu bora na vifaa vya shule kwa watoto masikini",
-    "viewAllProjects": "Tazama Miradi Yote"
+    "option_label": "Chaguo {{num}}",
+    "categories": {
+      "water_wells": "Visima vya Maji",
+      "sadaka": "Sadaka na Kuchinja",
+      "health": "Miradi ya Afya",
+      "education": "Miradi ya Elimu",
+      "masjid": "Ujenzi wa Msikiti",
+      "livelihood": "Miradi ya Maisha"
+    },
+    "headers": {
+      "features": "Maelezo ya Mradi",
+      "depth": "Urefu wa Kwenda Chini",
+      "beneficiaries": "Wanufaika",
+      "description": "Maelezo",
+      "price": "Gharama (USD)",
+      "price_unit": "Bei"
+    },
+    "well_types": {
+      "well_shallow": "Kisima Kifupi",
+      "well_mid": "Kisima cha Kati",
+      "well_deep": "Kisima Kirefu",
+      "well_solar": "Kisima cha Nishati ya Jua"
+    },
+    "features": {
+      "pulley": "Mfumo wa Kamba na Ndoo",
+      "pump_local": "Pampu ya Mkono (Ya humu nchini)",
+      "pump_indian_2": "Pampu ya Indian Mark II",
+      "pump_indian_3": "Pampu ya Indian Mark III",
+      "pump_electric": "Pampu ya Umeme ya Kuzama",
+      "system_small": "Mfumo Mdogo wa Jua",
+      "system_medium": "Mfumo wa Kati wa Jua",
+      "system_large": "Mfumo Mkubwa wa Jua"
+    },
+    "labels": {
+      "depth_range": "m {{min}} - m {{max}}",
+      "people_count": "Watu {{count}}",
+      "people_plus": "Watu {{count}}+",
+      "ask": "Tafadhali Uliza",
+      "per_sqm": "$250 kwa SQM",
+      "per_unit": "${{amount}} kwa kila kitengo"
+    },
+    "items": {
+      "goat": "Mbuzi",
+      "sheep": "Kondoo",
+      "cow": "Ng'ombe",
+      "std": "Saizi ya Kawaida",
+      "big": "Saizi Kubwa",
+      "medical_camp": "Kambi ya Matibabu",
+      "cataract_surgery": "Upasuaji wa Mtoto wa Jicho",
+      "dispensary_completion": "Umaliziaji wa Zahanati/Wadi",
+      "school_wash": "Mradi wa WASH wa Shule",
+      "school_completion": "Umaliziaji wa Ujenzi wa Shule",
+      "school_classes": "Madarasa Mapya ya Shule",
+      "new_school": "Ujenzi wa Shule Mpya",
+      "new_mosque": "Ujenzi wa Msikiti Mpya",
+      "mosque_completion": "Miradi ya Umaliziaji wa Msikiti",
+      "goats_keeping": "Ufugaji wa Mbuzi",
+      "dairy_cows": "Mradi wa Ng'ombe wa Maziwa",
+      "small_shops": "Maduka Madogo",
+      "beekeeping": "Ufugaji wa Nyuki"
+    }
   },
   "waterWells": {
     "title": "Miradi ya Visima vya Maji",

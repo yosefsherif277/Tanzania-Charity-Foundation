@@ -4,7 +4,6 @@
     "about": "Sobre Nós",
     "ourPurpose": "Nosso Propósito",
     "projects": "Projetos",
-    "waterWells": "Poços de Água",
     "gallery": "Galeria",
     "contact": "Contato"
   },
@@ -46,13 +45,67 @@
     "valuesText": "Guiados pelos princípios de integridade, compaixão e comunidade, servimos com respeito, dedicação e compromisso inabalável com a humanidade."
   },
   "projects": {
-    "title": "Nossos Projetos",
-    "description": "Explore nossos projetos em andamento e concluídos que estão fazendo a diferença em comunidades em toda a Tanzânia.",
-    "featuredProjects": "Nossos Projetos em Destaque",
-    "featuredDescription": "Descubra como estamos fazendo a diferença em comunidades em toda a Tanzânia",
-    "education": "Programas Educacionais",
-    "educationDesc": "Fornecendo educação de qualidade e materiais escolares para crianças carentes",
-    "viewAllProjects": "Ver Todos os Projetos"
+    "option_label": "Opção {{num}}",
+    "categories": {
+      "water_wells": "Poços de Água",
+      "sadaka": "Sadaqa e Sacrifício",
+      "health": "Projetos de Saúde",
+      "education": "Projetos de Educação",
+      "masjid": "Construção de Mesquitas",
+      "livelihood": "Projetos de Subsistência"
+    },
+    "headers": {
+      "features": "Detalhes do Projeto",
+      "depth": "Profundidade",
+      "beneficiaries": "Beneficiários",
+      "description": "Descrição",
+      "price": "Custo (USD)",
+      "price_unit": "Preço"
+    },
+    "well_types": {
+      "well_shallow": "Poço Raso",
+      "well_mid": "Poço de Profundidade Média",
+      "well_deep": "Poço Profundo",
+      "well_solar": "Poço Solar"
+    },
+    "features": {
+      "pulley": "Sistema de Roldana e Balde",
+      "pump_local": "Bomba Manual (Local)",
+      "pump_indian_2": "Bomba Indian Mark II",
+      "pump_indian_3": "Bomba Indian Mark III",
+      "pump_electric": "Bomba Elétrica Submersível",
+      "system_small": "Pequeno Sistema Solar",
+      "system_medium": "Médio Sistema Solar",
+      "system_large": "Grande Sistema Solar"
+    },
+    "labels": {
+      "depth_range": "{{min}}m - {{max}}m",
+      "people_count": "{{count}} Pessoas",
+      "people_plus": "Mais de {{count}} pessoas",
+      "ask": "Sob consulta",
+      "per_sqm": "$250 por m²",
+      "per_unit": "${{amount}} por unidade"
+    },
+    "items": {
+      "goat": "Cabra",
+      "sheep": "Ovelha",
+      "cow": "Vaca",
+      "std": "Tamanho Padrão",
+      "big": "Tamanho Grande",
+      "medical_camp": "Acampamento Médico (Exame Geral)",
+      "cataract_surgery": "Cirurgias de Catarata",
+      "dispensary_completion": "Conclusão de Dispensário/Centro de Saúde",
+      "school_wash": "Projeto WASH Escolar (Poço e Sanitas)",
+      "school_completion": "Conclusão de Construção de Escola",
+      "school_classes": "Novas Salas de Aula",
+      "new_school": "Construção de Nova Escola",
+      "new_mosque": "Nova Mesquita (Acabamento Completo)",
+      "mosque_completion": "Conclusão de Mesquitas Existentes",
+      "goats_keeping": "Criação de Cabras (Viúvas e Imames)",
+      "dairy_cows": "Projeto de Vacas Leiteiras",
+      "small_shops": "Pequenas Lojas (para Deficientes)",
+      "beekeeping": "Apicultura e Produção de Mel"
+    }
   },
   "waterWells": {
     "title": "Projetos de Poços de Água",

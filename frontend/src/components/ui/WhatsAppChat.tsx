@@ -16,7 +16,7 @@ export default function WhatsAppChat({ lng }: WhatsAppChatProps) {
   const [mounted, setMounted] = useState(false)
 const [currentTime, setCurrentTime] = useState('')
 
-  const whatsappNumber = '+393897879480' // TODO: charity num
+  const whatsappNumber = '+255686778002'
   // FIXME: default message language
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     t('whatsapp.defaultMessage')

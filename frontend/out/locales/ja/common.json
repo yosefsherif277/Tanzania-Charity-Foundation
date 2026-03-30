@@ -4,7 +4,6 @@
     "about": "私たちについて",
     "ourPurpose": "私たちの目的",
     "projects": "プロジェクト",
-    "waterWells": "井戸",
     "gallery": "ギャラリー",
     "contact": "お問い合わせ"
   },
@@ -46,13 +45,67 @@
     "valuesText": "誠実さ、思いやり、コミュニティの原則に導かれ、私たちは敬意、献身、そして人類への揺るぎないコミットメントを持って奉仕します。"
   },
   "projects": {
-    "title": "私たちのプロジェクト",
-    "description": "タンザニア全土のコミュニティに変化をもたらしている進行中および完了したプロジェクトをご覧ください。",
-    "featuredProjects": "注目のプロジェクト",
-    "featuredDescription": "タンザニア全土のコミュニティでどのように変化をもたらしているかをご覧ください",
-    "education": "教育プログラム",
-    "educationDesc": "恵まれない子供たちに質の高い教育と学用品を提供する",
-    "viewAllProjects": "すべてのプロジェクトを見る"
+    "option_label": "オプション {{num}}",
+    "categories": {
+      "water_wells": "井戸建設事業",
+      "sadaka": "サダカと犠牲祭",
+      "health": "医療・保健プロジェクト",
+      "education": "教育支援事業",
+      "masjid": "モスク建設",
+      "livelihood": "生活自立支援事業"
+    },
+    "headers": {
+      "features": "プロジェクト詳細",
+      "depth": "深さ",
+      "beneficiaries": "受益者数",
+      "description": "内容説明",
+      "price": "費用 (USD)",
+      "price_unit": "価格"
+    },
+    "well_types": {
+      "well_shallow": "浅井戸",
+      "well_mid": "中深井戸",
+      "well_deep": "深井戸",
+      "well_solar": "ソーラー井戸"
+    },
+    "features": {
+      "pulley": "つるべ・バケツ式",
+      "pump_local": "手押しポンプ (現地製)",
+      "pump_indian_2": "インド製 Mark II ポンプ",
+      "pump_indian_3": "インド製 Mark III ポンプ",
+      "pump_electric": "水中電動ポンプ",
+      "system_small": "小型ソーラーシステム",
+      "system_medium": "中型ソーラーシステム",
+      "system_large": "大型ソーラーシステム"
+    },
+    "labels": {
+      "depth_range": "{{min}}m - {{max}}m",
+      "people_count": "{{count}} 名",
+      "people_plus": "{{count}} 名以上",
+      "ask": "お問い合わせください",
+      "per_sqm": "1㎡あたり $250",
+      "per_unit": "1体あたり ${{amount}}"
+    },
+    "items": {
+      "goat": "ヤギ",
+      "sheep": "羊",
+      "cow": "牛",
+      "std": "標準サイズ",
+      "big": "大型サイズ",
+      "medical_camp": "医療キャンプ (一般診療)",
+      "cataract_surgery": "白内障手術支援",
+      "dispensary_completion": "診療所・病棟の完成工事",
+      "school_wash": "学校WASH事業 (井戸とトイレ)",
+      "school_completion": "未完の学校建設の完了",
+      "school_classes": "新校舎・教室の増設",
+      "new_school": "新設学校の建設",
+      "new_mosque": "モスク新築 (フル仕上げ)",
+      "mosque_completion": "既存モスクの完成工事",
+      "goats_keeping": "ヤギ飼育支援 (未亡人・イマーム向け)",
+      "dairy_cows": "乳牛飼育プロジェクト",
+      "small_shops": "小規模店舗の設立 (障害者支援)",
+      "beekeeping": "養蜂および蜂蜜生産"
+    }
   },
   "waterWells": {
     "title": "井戸プロジェクト",
