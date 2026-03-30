@@ -46,20 +46,67 @@
     "valuesText": "Guided by the principles of integrity, compassion, and community, we serve with respect, dedication, and unwavering commitment to humanity."
   },
   "projects": {
-    "title": "Our Projects",
-    "description": "Explore our ongoing and completed projects that are making a difference in communities across Tanzania.",
-    "featuredProjects": "Our Featured Projects",
-    "featuredDescription": "Discover how we are making a difference in communities across Tanzania",
-    "education": "Education Programs",
-    "educationDesc": "Providing quality education and school supplies to underprivileged children",
-    "viewAllProjects": "View All Projects"
-  },
-  "waterWells": {
-    "title": "Water Well Projects",
-    "description": "Bringing clean, safe drinking water to communities in Tanzania through sustainable water well projects.",
-    "shallowWell": "Shallow Well",
-    "deepWell": "Deep Well",
-    "servesPeople": "Serves {{count}} people"
+    "option_label": "Option {{num}}",
+    "categories": {
+      "water_wells": "Water Wells",
+      "sadaka": "Sadaka & Slaughter",
+      "health": "Health Projects",
+      "education": "Education Projects",
+      "masjid": "Mosque Construction",
+      "livelihood": "Livelihood Projects"
+    },
+    "headers": {
+      "features": "Project Details",
+      "depth": "Depth",
+      "beneficiaries": "Beneficiaries",
+      "description": "Description",
+      "price": "Cost (USD)",
+      "price_unit": "Price"
+    },
+    "well_types": {
+      "well_shallow": "Shallow Well",
+      "well_mid": "Mid-Depth Well",
+      "well_deep": "Deep Well",
+      "well_solar": "Solar Well"
+    },
+    "features": {
+      "pulley": "Pulley & Bucket System",
+      "pump_local": "Hand Pump (Local)",
+      "pump_indian_2": "Indian Mark II Pump",
+      "pump_indian_3": "Indian Mark III Pump",
+      "pump_electric": "Electric Submersible Pump",
+      "system_small": "Small Solar System",
+      "system_medium": "Medium Solar System",
+      "system_large": "Large Solar System"
+    },
+    "labels": {
+      "depth_range": "{{min}}m - {{max}}m",
+      "people_count": "{{count}} People",
+      "people_plus": "{{count}}+ People",
+      "ask": "Please Ask",
+      "per_sqm": "$250 per SQM",
+      "per_unit": "${{amount}} per unit"
+    },
+    "items": {
+      "goat": "Goat",
+      "sheep": "Sheep",
+      "cow": "Cow",
+      "std": "Standard Size",
+      "big": "Big Size",
+      "medical_camp": "Medical Camp (General Checkup)",
+      "cataract_surgery": "Cataract Surgery Projects",
+      "dispensary_completion": "Dispensary / Ward Completion",
+      "school_wash": "School WASH Project (Well & Toilets)",
+      "school_completion": "School Construction Completion",
+      "school_classes": "New School Classrooms",
+      "new_school": "New School Construction",
+      "new_mosque": "New Mosque Construction",
+      "mosque_completion": "Mosque Completion Projects",
+      "goats_keeping": "Goats Keeping (Widows & Imams)",
+      "dairy_cows": "Dairy Cows Project",
+      "small_shops": "Small Shops (Disabled Persons)",
+      "beekeeping": "Beekeeping & Honey Production"
+    }
   },
   "contact": {
     "title": "Get In Touch",
